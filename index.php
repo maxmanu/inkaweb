@@ -5,7 +5,7 @@
     <div class="swiper-wrapper">
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="">
+        data-background="assets/img/imagenes-inkaweb/hero-slide-1.webp">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -40,7 +40,7 @@
       </div>
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="">
+        data-background="assets/img/imagenes-inkaweb/hero-slide-2.webp">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -75,7 +75,7 @@
       </div>
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="">
+        data-background="assets/img/imagenes-inkaweb/cpanel-inkawebdesign.webp">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -111,7 +111,7 @@
       </div>
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="">
+        data-background="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
