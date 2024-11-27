@@ -2,12 +2,10 @@
 <html lang="es" data-bs-theme="dark">
 
 <head>
-  <!--required meta tags-->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <base href="" />
 
-  <!--twitter og-->
   <meta name="twitter:site" content="@inkawebdesign" />
   <meta name="twitter:creator" content="@inkawebdesign" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -17,7 +15,6 @@
     content="Somos la mejor empresa de Hosting Peru más de 10 años de experiencia, cuentas de correos, registro de Dominios desde $9.90 anual, Hosting desde $15.00 anual y Diseño Web." />
   <meta name="twitter:image" content="#" />
 
-  <!--facebook og-->
   <meta property="og:url" content="#" />
   <meta name="twitter:title" content="Hosting, Hosting Peru, Hosting Economico, Registro de Dominios - 2024" />
   <meta
@@ -29,9 +26,7 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
 
-  <!--title-->
   <title>Hosting, Hosting Peru, Hosting Economico, Registro de Dominios - 2024</title>
-  <!--meta-->
   <meta
     name="description"
     content="Somos la mejor empresa de Hosting Peru más de 10 años de experiencia, cuentas de correos, registro de Dominios desde $9.90 anual, Hosting desde $15.00 anual y Diseño Web." />
@@ -40,35 +35,25 @@
     content="hosting, hosting Perú, hosting en Perú, Perú, mejor hosting, mejor hosting en Peru, web hosting en Peru, web hosting, webhosting, datacenter, server, host, Hosting en Perú, host peru, mejor host, alojamiento web, alojamiento web, datacenter, datacenter en Perú, servidor privado virtual, servidor virtual privado, alojar web, hospedar web" />
   <meta name="author" content="Inkaweb" />
 
-  <!--favicon icon-->
   <link rel="icon" href="assets/img/imagenes-inkaweb/favicon.png" type="image/png" sizes="16x16" />
 
-  <!--google fonts-->
   <link
     href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Urbanist:wght@600;700&display=swap"
     rel="stylesheet" />
 
-  <!--build:css-->
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <!-- endbuild -->
-
-  <link rel="stylesheet" href="assets/css/custom.css?vk=1728513153" />
+  <link rel="stylesheet" href="assets/css/main-min.css" />
+  <link rel="stylesheet" href="assets/css/custom-min.css" />
 </head>
 
 <body>
   <div id="WABoton"></div>
 
-  <!--body overlay -->
   <div class="body-overlay"></div>
 
-  <!--scrolltop button -->
   <button class="scrolltop-btn"><i class="fa-solid fa-angle-up"></i></button>
 
-
-  <!--main content wrapper start-->
   <div class="main-wrapper">
 
-    <!--header area start-->
     <header class="header-section header-gradient">
       <div class="topbar">
         <div class="container">
@@ -390,289 +375,13 @@
         </div>
       </div>
     </header>
-    <!--header area end-->
 
-    <!--mobile menu start-->
     <div class="mobile-menu position-fixed bg-white deep-shadow">
       <button class="close-menu position-absolute"><i class="fa-solid fa-xmark"></i></button>
       <a href="index.php" class="logo-black"><img src="assets/img/imagenes-inkaweb/logo-inkaweb.svg" alt="logo" class="logo" /></a>
       <a href="index.html" class="logo-wrapper"><img src="assets/img/imagenes-inkaweb/logo-inkaweb-dark.svg" alt="logo" class="logo logo-white" /></a>
       <nav class="mobile-menu-wrapper mt-40">
-        <!-- <ul>
-          <li class="has-submenu">
-            <a href="javascript:void(0)">Home</a>
-            <ul>
-              <li>
-                <a href="index.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/Web-Hosting.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Web Hosting</h6>
-                      <span>Powerful bare metal server</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-2.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/hosting-service.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Hosting Services</h6>
-                      <span>Flexible virtual machine</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-3.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/game-hosting.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Game Server</h6>
-                      <span>Super fast game server</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-4.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/application-hosting.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Application Hosting</h6>
-                      <span>Flexible Application Hosting</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-5.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/hosting-solution.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Hosting Solution</h6>
-                      <span>Powerful Hosting Solutions</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-6.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/home-minimal.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Minimal Hosting<span class="badge bg-danger ms-3">New</span></h6>
-                      <span>Minimal Web Hosting</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-7.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/silder-demo.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Slider Home</h6>
-                      <span>Web Hosting Services</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-8.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/dedicated-server.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Dedicated Server<span class="badge bg-danger ms-3">New</span></h6>
-                      <span>Dedicated Server Hosting</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-9.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/hosting-provider.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Hosting Provider<span class="badge bg-danger ms-3">New</span></h6>
-                      <span>Web Hosting Provider</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-10.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/web-hosting-2.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Web Hosting<span class="badge bg-danger ms-3">New</span></h6>
-                      <span>Web Hosting Server</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-11.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/promotional-home.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Promotional Hosting</h6>
-                      <span>Web Hosting Server</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-12.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/black-friday.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Isometric Hosting</h6>
-                      <span>Web Hosting Server</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-13.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/data-center.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Data Server</h6>
-                      <span>Web Hosting Server</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-14.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/Web-Hosting.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Cloud Serverr</h6>
-                      <span>Hosting Cloud</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-15.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/hosting-service.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>VPS Server</h6>
-                      <span>Hosting VPS</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-16.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/game-hosting.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Secure Server</h6>
-                      <span>Secure Server</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-17.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/Web-Hosting.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Server Hosting</h6>
-                      <span>Server Hosting</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-18.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/silder-demo.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Fast & Secure</h6>
-                      <span>Fast & Secure</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-19.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/data-center.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Fast & Secure Two</h6>
-                      <span>Fast & Secure</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="index-20.html">
-                  <div class="menu-list-wrapper d-flex align-items-center">
-                    <img src="assets/img/home_dropdown/application-hosting.png" alt="server" class="list-logo" />
-                    <div class="menu-list-content-right ms-3">
-                      <h6>Web Hosting</h6>
-                      <span>Web Hosting</span>
-                    </div>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="domain.html">Domain</a></li>
-          <li class="has-submenu">
-            <a href="javascript:void(0)">Hosting</a>
-            <ul>
-              <li><a href="shared-hosting.html">Shared Hosting</a></li>
-              <li><a href="wp-hosting.html">WordPress Hosting</a></li>
-              <li><a href="vps-hosting.html">VPS Hosting</a></li>
-              <li><a href="dedicated-server.html">Dedicated Server</a></li>
-              <li><a href="reseller-hosting.html">Reseller Hosting</a></li>
-              <li><a href="game-hosting.html">Game Hosting</a></li>
-              <li><a href="cloud-hosting.html">Cloud Hosting</a></li>
-              <li><a href="email-hosting.html">Email Hosting</a></li>
-              <li><a href="black-friday.html">Black Friday</a></li>
-            </ul>
-          </li>
-          <li class="has-submenu">
-            <a href="javascript:void(0)">Pages</a>
-            <ul class="submenu-wrapper">
-              <li><a href="service.html">Services</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="features.html">Features</a></li>
-              <li><a href="blog-grids.html">Blog Grid</a></li>
-              <li><a href="blog-list.html">Blog List</a></li>
-              <li><a href="blog-details.html">Blog Details</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="terms.html">Terms & Conditions</a></li>
-              <li><a href="privacy.html">Privacy Policy</a></li>
-              <li><a href="pricing-2.html">Pricing V2</a></li>
-              <li><a href="affiliate.html">Affiliate</a></li>
-              <li><a href="status.html">Status</a></li>
-              <li><a href="404.html">404</a></li>
-              <li>
-                <a href="data-center.html">Data Center<span class="badge bg-danger ms-3">New</span></a>
-              </li>
-              <li>
-                <a href="compare-pricing.html">Compare<span class="badge bg-danger ms-3">New</span></a>
-              </li>
-              <li>
-                <a href="career.html">Career<span class="badge bg-danger ms-3">New</span></a>
-              </li>
-              <li>
-                <a href="career-details.html">Career Details<span class="badge bg-danger ms-3">New</span></a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="signup.html">Signup</a></li>
-        </ul> -->
+
       </nav>
       <div class="contact-info mt-60">
         <h4 class="mb-20">Contacto</h4>
@@ -687,4 +396,3 @@
         </div>
       </div>
     </div>
-    <!--mobile menu end-->
