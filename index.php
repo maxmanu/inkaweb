@@ -1,11 +1,11 @@
 <?php include("template-parts/header.php") ?>
 
-<!-- <section class="hm7-hero-section position-relative zindex-1 overflow-hidden">
+<section class="hm7-hero-section position-relative zindex-1 overflow-hidden">
   <div class="hm7-hero-slider swiper">
     <div class="swiper-wrapper">
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="assets/img/imagenes-inkaweb/hero-slide-1.webp">
+        data-background="">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -40,7 +40,7 @@
       </div>
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="assets/img/imagenes-inkaweb/hero-slide-2.webp">
+        data-background="">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -75,7 +75,7 @@
       </div>
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="assets/img/imagenes-inkaweb/cpanel-inkawebdesign.webp">
+        data-background="">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -111,7 +111,7 @@
       </div>
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp">
+        data-background="">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -165,7 +165,7 @@
       </li>
     </ul>
   </div>
-</section> -->
+</section>
 
 <div class="h5-domain pb-120 ds-bg">
   <div class="container">
