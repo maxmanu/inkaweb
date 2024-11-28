@@ -4,7 +4,8 @@
   <div class="hm7-hero-slider swiper">
     <div class="swiper-wrapper">
       <div
-        class="slider-hero-single position-relative zindex-1 swiper-slide">
+        class="slider-hero-single position-relative zindex-1 swiper-slide"
+        data-background="assets/img/imagenes-inkaweb/hero-slide-1.webp">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
