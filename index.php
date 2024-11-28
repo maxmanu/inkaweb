@@ -4,8 +4,7 @@
   <div class="hm7-hero-slider swiper">
     <div class="swiper-wrapper">
       <div
-        class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="assets/img/imagenes-inkaweb/hero-slide-1.webp">
+        class="slider-hero-single position-relative zindex-1 swiper-slide">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -1063,7 +1062,7 @@
             <p class="mb-0">Contact one of our friendly technical advisors now Our team is available</p>
           </div>
           <div class="h4-blog-card bg-white deep-shadow rounded-2 position-relative">
-            <a href="blog-details.html" class="feature-img"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.jpg" alt="not found" class="img-fluid rounded-2" /></a>
+            <a href="blog-details.html" class="feature-img"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="not found" class="img-fluid rounded-2" /></a>
             <span class="position-absolute category-btn start-0 top-0">General</span>
             <div class="h4-blog-content bg-white">
               <a href="blog-details.html">
@@ -1083,7 +1082,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.jpg" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="feature" class="img-fluid rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
@@ -1107,7 +1106,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.jpg" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="feature" class="img-fluid rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
@@ -1131,7 +1130,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.jpg" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="feature" class="img-fluid rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
