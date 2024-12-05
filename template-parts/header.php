@@ -46,7 +46,7 @@
   <link rel="stylesheet" href="assets/css/fontawesome-min.css" />
   <link rel="stylesheet" href="assets/css/swiper-min.css" />
   <link rel="stylesheet" href="assets/css/bootstrap-slider-min.css" />
-  <link rel="stylesheet" href="assets/css/main.min.css" />
+  <link rel="stylesheet" href="assets/css/main-min.css" />
   <link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
