@@ -1,3 +1,8 @@
+section {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+}
+
 .footer-top {
   position: relative;
 }
@@ -1133,6 +1138,10 @@ mark.text-primary {
   padding-top: 80px;
 }
 
+.pt-60 {
+  padding-top: 60px !important;
+}
+
 .hm2-service-tab ul {
   border-bottom: 2px solid #cfcfcf;
   -ms-flex-wrap: nowrap;
@@ -1289,6 +1298,91 @@ mark.text-primary {
   background: linear-gradient(95.45deg, #e94d3a .64%, #ff1212 98.23%);
 }
 
+.contact-hero .hero-area {
+  padding-bottom: 160px;
+}
+
+.display-font {
+  font-size: 4.25rem;
+}
+
+.left-bottom {
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.promo-area {
+  z-index: 1;
+  margin-top: -70px;
+}
+
+.hm-ct-info-wrapper {
+  padding: 0 30px 30px 30px;
+  margin-bottom: 60px;
+  background: #fff;
+  min-height: 276px;
+  -webkit-box-shadow: 0 12px 50px rgb(125 125 125 / .2);
+  box-shadow: 0 12px 50px rgb(125 125 125 / .2);
+}
+
+.hm-contact-form .input-field {
+  position: relative;
+}
+
+.hm-contact-form .input-field label {
+  position: absolute;
+  left: 20px;
+  top: -12px;
+  color: #001042;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  border-radius: 5px;
+  padding: 0 10px;
+  background: #fff;
+}
+
+.hm-contact-form .input-field input,
+.hm-contact-form .input-field textarea {
+  width: 100%;
+  padding: 22px 20px 18px 20px;
+  font-size: 14px;
+  color: #656565;
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1312,11 +1406,22 @@ mark.text-primary {
   }
 }
 
+@media (max-width: 768px) {
+
+  .hm-ct-info-wrapper {
+    min-height: 0;
+  }
+}
+
 @media (max-width: 575.98px) {
 
   .hm7-hero-slider .hm7-hero-slide-control,
   .hm7-hero-slider .hm7-hero-slider-prev {
     bottom: 155px;
+  }
+
+  .display-font {
+    font-size: 2.25rem;
   }
 }
 

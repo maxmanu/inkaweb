@@ -1,18 +1,8 @@
 <?php include("template-parts/header.php") ?>
 
-<!-- <section class="breadcrumb-area bg-primary-gradient bg-hero-term">
-  <div class="container">
-    <div class="breadcrumb-content text-center">
-      <h2 class="mb-3">Comunícate con nosotros</h2>
-    </div>
-  </div>
-</section> -->
-
 <!--breadcrumb area start-->
 <section class="hero-style-1 contact-hero bg-white">
   <div class="hero-area overflow-hidden position-relative zindex-1 bg-primary-gradient bg-hero-contacto pt-120">
-    <img src="assets/img/shapes/circle.svg" alt="circle shape" class="circle-shape position-absolute">
-    <img src="assets/img/shapes/contact-hero-left.png" alt="circle" class="left-bottom position-absolute">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
