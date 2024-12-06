@@ -1358,12 +1358,6 @@ mark.text-primary {
   max-height: 760px;
 }
 
-
-
-
-
-
-
 .background-image-home {
   position: absolute;
   top: 0;
@@ -1374,13 +1368,25 @@ mark.text-primary {
   text-align: end;
 }
 
+.fw-400 {
+  font-weight: 400;
+}
 
+.lh-22 {
+  line-height: 22px;
+}
 
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
 
+.fs-14 {
+  font-size: .875rem;
+}
 
-
-
-
+.mt-10 {
+  margin-top: 10px;
+}
 
 
 

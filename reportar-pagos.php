@@ -17,7 +17,7 @@
   <div class="container">
     <div class="hm-contact-form mt-1">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="row justify-content-center mb-2">
             <div class="col">
               <h6 class="hds-body-color-four fs-18 lh-28 mb-0 mt-20">
@@ -40,24 +40,26 @@
             <h6 class="hds-body-color-four fs-18 lh-28 mb-3 mt-20">
               Ingresa los siguientes campos para enviarnos los datos del pago
             </h6>
-            <div class="mb-3">
-              <label for="nombre" class="form-label"><b>Nombre y Apellido:</b></label>
-              <input name="nombre" id="nombre" type="text" class="form-control" maxlength="55" onfocus="c('id1');" onblur="r('id1');">
-            </div>
 
-            <div class="mb-3">
-              <label for="domicilio" class="form-label"><b>Domicilio:</b></label>
-              <input name="domicilio" id="domicilio" type="text" class="form-control" maxlength="70" onfocus="c('id2');" onblur="r('id2');">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="nombre" class="form-label"><b>Nombre y Apellido del Depositante:</b></label>
+                <input name="nombre" id="nombre" type="text" class="form-control">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="domicilio" class="form-label"><b>Domicilio:</b></label>
+                <input name="domicilio" id="domicilio" type="text" class="form-control">
+              </div>
             </div>
 
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="fijo" class="form-label"><b>Teléfono Fijo:</b></label>
-                <input name="fijo" id="fijo" type="text" class="form-control" maxlength="30" onfocus="c('id5');" onblur="r('id5');">
+                <input name="fijo" id="fijo" type="text" class="form-control" maxlength="30">
               </div>
               <div class="col-md-6 mb-3">
                 <label for="celular" class="form-label"><b>Teléfono Móvil:</b></label>
-                <input name="celular" id="celular" type="text" class="form-control" maxlength="30" onfocus="c('id8');" onblur="r('id8');">
+                <input name="celular" id="celular" type="text" class="form-control" maxlength="30" required>
               </div>
             </div>
 
@@ -90,20 +92,16 @@
               </div>
             </div>
 
-            <div class="mb-3">
-              <label for="email" class="form-label"><b>E-mail:</b></label>
-              <input name="email" id="email" type="email" class="form-control" maxlength="100" onfocus="c('id7');" onblur="r('id7');">
-            </div>
-
-            <div class="mb-3">
-              <label for="contenido" class="form-label"><b>Comentario:</b></label>
-              <p><strong>Nota:</strong> Puede dejar indicado el nombre de su dominio al cual usted será registrado (no ingresar http://).</p>
-              <textarea name="contenido" id="contenido" rows="5" class="form-control" onfocus="c('id4');" onblur="r('id4');"></textarea>
-            </div>
-
-            <div class="mb-3">
-              <label for="recaptcha" class="form-label"><b>Código de Seguridad:</b></label>
-              <div class="g-recaptcha" data-sitekey="6LfDU1EUAAAAAF_A7PLuIjVD0udBIoQc08CBhFff"></div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label"><b>E-mail:</b></label>
+                <input name="email" id="email" type="email" class="form-control" maxlength="100">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="contenido" class="form-label"><b>Comentario:</b></label>
+                <textarea name="contenido" id="contenido" rows="5" class="form-control"></textarea>
+                <small><strong>Nota:</strong> Puede dejar indicado el nombre de su dominio al cual usted será registrado (no ingresar http://).</small>
+              </div>
             </div>
 
             <div class="mb-3">
@@ -117,12 +115,18 @@
             </div>
 
             <div class="form-check mb-3">
-              <input type="checkbox" name="acuerdo" id="acuerdo" class="form-check-input" onclick="EnterTyC();" value="Aceptado">
+              <input type="checkbox" name="acuerdo" id="acuerdo" class="form-check-input" value="Aceptado">
               <label for="acuerdo" class="form-check-label">He leído y estoy de acuerdo con los <a class="term-link" href="terminos.php" target="_blank"><b>Términos y Condiciones de Uso</b></a></label>
             </div>
 
-            <div class="text-center">
-              <button type="submit" class="btn template-btn primary-btn" id="EnviarNow"> Enviar</button>
+            <div class="text-center mt-5">
+              <label for="recaptcha" class="form-label"><b>Código de Seguridad:</b></label>
+              <br>
+              <br>
+              <br>
+            </div>
+            <div class="text-center mt-5">
+              <button type="submit" class="btn template-btn primary-btn" id="EnviarNow">Enviar</button>
               <input type="hidden" name="action" value="send">
             </div>
           </form>
@@ -133,7 +137,7 @@
 </section>
 
 <!-- Faq -->
-<div class="host-fs-faq-area pt-60 pb-120">
+<!-- <div class="host-fs-faq-area pt-60 pb-120">
   <div class="container">
     <div class="row align-items-center justify-content-between">
       <div class="col-lg-8 mx-auto">
@@ -227,7 +231,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Faq -->
 
 <?php include("template-parts/footer.php") ?>
