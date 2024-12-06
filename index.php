@@ -3,9 +3,12 @@
 <section class="hm7-hero-section position-relative zindex-1 overflow-hidden">
   <div class="hm7-hero-slider swiper">
     <div class="swiper-wrapper">
-      <div
-        class="slider-hero-single position-relative zindex-1 swiper-slide"
-        data-background="assets/img/imagenes-inkaweb/hero-slide-1.webp">
+      <div class="slider-hero-single position-relative zindex-1 swiper-slide">
+        <img
+          src="assets/img/imagenes-inkaweb/hero-slide-1.webp"
+          alt="Somos tu empresa de hosting"
+          class="background-image-home img-fluid"
+          loading="eager">
         <div class="container">
           <div class="row">
             <div class="col-xl-5 col-lg-7 col-sm-10">
@@ -209,7 +212,7 @@
             </div>
             <div class="col-lg-5">
               <div class="box-right text-lg-center">
-                <img src="assets/img/imagenes-inkaweb/badge.png" alt="badge" class="img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/badge.png" loading="lazy" alt="badge" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -225,7 +228,7 @@
       <div class="col-lg-6">
         <div class="hm7-about-left position-relative zindex-1">
           <span class="position-absolute circle-shape-gradient zindex--1 rounded-circle"></span>
-          <img src="assets/img/imagenes-inkaweb/about.png" alt="not found" class="img-fluid" />
+          <img src="assets/img/imagenes-inkaweb/about.png" loading="lazy" alt="not found" class="img-fluid" />
           <div class="hm7-counter-circle position-absolute rounded-circle bg-white">
             <div class="counter-circle-wrapper text-center">
               <h2 class="mb-0 text-white"><span class="counter">17</span>+</h2>
@@ -293,7 +296,7 @@
             <div class="em-pricing-slider swiper overflow-visible">
               <div class="swiper-wrapper">
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Personal</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -305,7 +308,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Ver Planes <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Económico</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -317,7 +320,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Ver Planes <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Básico</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -329,7 +332,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Ver Planes <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Gran Comienzo</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -341,7 +344,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Ver Planes <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Profesional</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -353,7 +356,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Ver Planes <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Empresarial</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -365,7 +368,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Ver Planes <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Gran Inka</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -377,7 +380,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Ver Planes <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/linux.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/linux.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Corporativo</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -398,7 +401,7 @@
             <div class="em-pricing-slider em-windows-slider swiper overflow-visible">
               <div class="swiper-wrapper">
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/windows.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/windows.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Económico</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -410,7 +413,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Starting at: $9.99<span class="me-2">/mon</span><i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/windows.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/windows.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Emprendedor</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -422,7 +425,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Starting at: $9.99<span class="me-2">/mon</span><i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/windows.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/windows.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Ejecutivo</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -434,7 +437,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Starting at: $9.99<span class="me-2">/mon</span><i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/windows.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/windows.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting PYMES</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -446,7 +449,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Starting at: $9.99<span class="me-2">/mon</span><i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/windows.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/windows.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Avanzado</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -458,7 +461,7 @@
                   <a href="#" class="em-pricing-btn fw-semibold">Starting at: $9.99<span class="me-2">/mon</span><i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="em-pricing-single-item swiper-slide bg-white rounded">
-                  <img src="assets/img/imagenes-inkaweb/windows.png" alt="icon">
+                  <img src="assets/img/imagenes-inkaweb/windows.png" loading="lazy" alt="icon">
                   <h4 class="mt-4">Hosting Corporativo</h4>
                   <p>You can't underrate the power of our excellent and are on hand to quickly.</p>
                   <ul class="list-items mb-4">
@@ -494,7 +497,7 @@
       <div class="row g-5">
         <div class="col-lg-4">
           <div class="left-img">
-            <img src="assets/img/imagenes-inkaweb/lock.png" alt="not found" class="img-fluid" />
+            <img src="assets/img/imagenes-inkaweb/lock.png" alt="not found" loading="lazy" class="img-fluid" />
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1">
@@ -535,8 +538,8 @@
         <div class="col-xl-4 col-lg-6">
           <div class="h5-service-box text-center bg-white rounded-2">
             <span class="d-flex justify-content-center">
-              <img src="assets/img/imagenes-inkaweb/icon-1.png" alt="icon" class="logo-black" />
-              <img src="assets/img/imagenes-inkaweb/icon-1.png" alt="icon" class="logo-white" />
+              <img src="assets/img/imagenes-inkaweb/icon-1.png" alt="icon" loading="lazy" class="logo-black" />
+              <img src="assets/img/imagenes-inkaweb/icon-1.png" alt="icon" loading="lazy" class="logo-white" />
             </span>
             <a href="shared-hosting.html">
               <h4 class="mb-3 mt-4">Hosting Linux</h4>
@@ -551,7 +554,7 @@
         <div class="col-xl-4 col-lg-6">
           <div class="h5-service-box text-center bg-white rounded-2">
             <span class="d-flex justify-content-center">
-              <img src="assets/img/imagenes-inkaweb/icon-2.png" alt="icon" />
+              <img src="assets/img/imagenes-inkaweb/icon-2.png" loading="lazy" alt="icon" />
             </span>
             <a href="wp-hosting.html">
               <h4 class="mb-3 mt-4">WordPress Hosting</h4>
@@ -565,7 +568,7 @@
         <div class="col-xl-4 col-lg-6">
           <div class="h5-service-box text-center bg-white rounded-2">
             <span class="d-flex justify-content-center">
-              <img src="assets/img/imagenes-inkaweb/icon-5.png" alt="icon" />
+              <img src="assets/img/imagenes-inkaweb/icon-5.png" loading="lazy" alt="icon" />
             </span>
             <a href="cloud-hosting.html">
               <h4 class="mb-3 mt-4">Cloud Hosting</h4>
@@ -580,7 +583,7 @@
         <div class="col-xl-4 col-lg-6">
           <div class="h5-service-box text-center bg-white rounded-2">
             <span class="d-flex justify-content-center">
-              <img src="assets/img/imagenes-inkaweb/icon-4.png" alt="icon" />
+              <img src="assets/img/imagenes-inkaweb/icon-4.png" loading="lazy" alt="icon" />
             </span>
             <a href="reseller-hosting.html">
               <h4 class="mb-3 mt-4">Reseller Hosting</h4>
@@ -595,7 +598,7 @@
         <div class="col-xl-4 col-lg-6">
           <div class="h5-service-box text-center bg-white rounded-2">
             <span class="d-flex justify-content-center">
-              <img src="assets/img/imagenes-inkaweb/icon-3.png" alt="icon" />
+              <img src="assets/img/imagenes-inkaweb/icon-3.png" loading="lazy" alt="icon" />
             </span>
             <a href="vps-hosting.html">
               <h4 class="mb-3 mt-4">VPS Hosting</h4>
@@ -611,7 +614,7 @@
         <div class="col-xl-4 col-lg-6">
           <div class="h5-service-box text-center bg-white rounded-2">
             <span class="d-flex justify-content-center">
-              <img src="assets/img/imagenes-inkaweb/icon-6.png" alt="icon" />
+              <img src="assets/img/imagenes-inkaweb/icon-6.png" loading="lazy" alt="icon" />
             </span>
             <a href="dedicated-server.html">
               <h4 class="mb-3 mt-4">Dedicated Server</h4>
@@ -631,7 +634,7 @@
 <section class="mn-support-section ds-bg position-relative zindex-1">
   <img
     src="assets/img/shapes/arrow-sm-blue.png"
-    alt="arrow blue"
+    alt="arrow blue" loading="lazy"
     class="position-absolute zindex--1 arrow-sm-blue" />
   <div class="container">
     <div class="row g-5 g-xl-4 justify-content-between align-items-center">
@@ -640,26 +643,26 @@
           <div class="mn-chatting-slider mb-50 swiper">
             <div class="swiper-wrapper">
               <div class="mn-chatting-single d-flex align-items-center swiper-slide">
-                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" class="rounded-circle img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" loading="lazy" class="rounded-circle img-fluid" />
                 <p class="mb-0 ms-3 bg-white">Dynamic cultivate front-end</p>
               </div>
               <div class="mn-chatting-single d-flex align-items-center swiper-slide">
-                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" class="rounded-circle img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" loading="lazy" class="rounded-circle img-fluid" />
                 <p class="mb-0 ms-3 bg-white">Dynamic cultivate front-end</p>
               </div>
               <div class="mn-chatting-single d-flex align-items-center swiper-slide">
-                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" class="rounded-circle img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" loading="lazy" class="rounded-circle img-fluid" />
                 <p class="mb-0 ms-3 bg-white">Dynamic cultivate front-end</p>
               </div>
               <div class="mn-chatting-single d-flex align-items-center swiper-slide">
-                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" class="rounded-circle img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/client-1.png" alt="client" loading="lazy" class="rounded-circle img-fluid" />
                 <p class="mb-0 ms-3 bg-white">Dynamic cultivate front-end</p>
               </div>
             </div>
           </div>
           <img
             src="assets/img/imagenes-inkaweb/soporte-hosting.webp"
-            alt="soporte hosting inkaweb"
+            alt="soporte hosting inkaweb" loading="lazy"
             class="img-fluid" />
         </div>
       </div>
@@ -698,7 +701,7 @@
               <div class="feagure-img">
                 <img
                   src="assets/img/imagenes-inkaweb/hosting-wordpress.png"
-                  alt="hosting wordpress"
+                  alt="hosting wordpress" loading="lazy"
                   class="img-fluid" />
               </div>
               <div class="app-content mt-4">
@@ -709,7 +712,7 @@
             </div>
             <div class="hm2-app-item text-center bg-white deep-shadow rounded-2 mt-4">
               <div class="feagure-img">
-                <img src="assets/img/imagenes-inkaweb/joomla.png" alt="Hosting Joomla" class="img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/joomla.png" loading="lazy" alt="Hosting Joomla" class="img-fluid" />
               </div>
               <div class="app-content mt-4">
                 <a href="wp-hosting.html">
@@ -721,7 +724,7 @@
           <div class="col-sm-6">
             <div class="hm2-app-item text-center bg-white deep-shadow rounded-2 mt-sm-5">
               <div class="feagure-img">
-                <img src="assets/img/imagenes-inkaweb/drupal.png" alt="hosting drupal" class="img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/drupal.png" loading="lazy" alt="hosting drupal" class="img-fluid" />
               </div>
               <div class="app-content mt-4">
                 <a href="wp-hosting.html">
@@ -731,7 +734,7 @@
             </div>
             <div class="hm2-app-item text-center bg-white deep-shadow rounded-2 mt-4">
               <div class="feagure-img">
-                <img src="assets/img/imagenes-inkaweb/hosting-drupal.png" alt="wordpress" class="img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/hosting-drupal.png" loading="lazy" alt="wordpress" class="img-fluid" />
               </div>
               <div class="app-content mt-4">
                 <a href="wp-hosting.html">
@@ -1063,7 +1066,7 @@
             <p class="mb-0">Contact one of our friendly technical advisors now Our team is available</p>
           </div>
           <div class="h4-blog-card bg-white deep-shadow rounded-2 position-relative">
-            <a href="blog-details.html" class="feature-img"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="not found" class="img-fluid rounded-2" /></a>
+            <a href="blog-details.html" class="feature-img"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="not found" class="img-fluid rounded-2" /></a>
             <span class="position-absolute category-btn start-0 top-0">General</span>
             <div class="h4-blog-content bg-white">
               <a href="blog-details.html">
@@ -1083,7 +1086,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="feature" class="img-fluid rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
@@ -1107,7 +1110,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="feature" class="img-fluid rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
@@ -1131,7 +1134,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="feature" class="img-fluid rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">

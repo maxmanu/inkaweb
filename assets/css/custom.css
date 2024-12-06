@@ -1354,6 +1354,9 @@ mark.text-primary {
   margin-bottom: 10px;
 }
 
+.hm7-hero-slider .swiper-wrapper {
+  max-height: 760px;
+}
 
 
 
@@ -1361,8 +1364,15 @@ mark.text-primary {
 
 
 
-
-
+.background-image-home {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-position: left;
+  z-index: -2;
+  object-fit: cover;
+  text-align: end;
+}
 
 
 
