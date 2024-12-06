@@ -126,7 +126,7 @@
               <br>
             </div>
             <div class="text-center mt-5">
-              <button type="submit" class="btn template-btn primary-btn" id="EnviarNow">Enviar</button>
+              <button type="submit" class="btn template-btn primary-btn" id="EnviarNow">Enviar Notificación de Pago</button>
               <input type="hidden" name="action" value="send">
             </div>
           </form>
