@@ -121,13 +121,12 @@
 <!-- Footer Area End -->
 
 <!-- Cookie Consent -->
-<div class="cookie-consent alert alert-warning alert-dismissible fade show" role="alert">
+<div class="cookie-consent alert alert-warning fade show" id="cookie-modal">
   <span>Inkaweb utiliza cookies. Si continúas navegando, aceptas nuestras <a href="cookies.php" class="ms-1 text-white link-underline-dark">Políticas de Cookies</a> </span>
   <div class="ms-2 d-flex align-items-center justify-content-center g-2">
-    <button class="allow-button me-1" data-bs-dismiss="alert">Acepto</button>
+    <button class="allow-button me-1" id="accept-cookies">Acepto</button>
   </div>
 </div>
-
 </div>
 <!-- main content wrapper ends -->
 

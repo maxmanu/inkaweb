@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-/** ---------------------------------------------------------------------------------------------------------------------- */
+/** ------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* 
    Formulario Libro de Reclamaciones.
 */
@@ -162,4 +162,26 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
   }
+});
+
+/** ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* 
+   Formulario Libro de Reclamaciones.
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  const modal = document.getElementById('cookie-modal');
+  const acceptBtn = document.getElementById('accept-cookies');
+
+  // Verificar si el usuario ya aceptó las cookies
+  if (!localStorage.getItem('cookiesAccepted')) {
+    modal.style.display = 'inline-flex'; // Mostrar el modal
+  } else {
+    modal.style.display = 'none'; // Ocultar el modal si ya aceptó
+  }
+
+  // Acción al hacer clic en "Aceptar"
+  acceptBtn.addEventListener('click', function () {
+    localStorage.setItem('cookiesAccepted', 'true'); // Guardar preferencia en el almacenamiento local
+    modal.style.display = 'none';
+  });
 });
