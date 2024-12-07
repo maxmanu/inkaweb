@@ -20,9 +20,9 @@
         <div class="col-lg-12">
           <div class="row justify-content-center mb-2">
             <div class="col">
-              <h6 class="hds-body-color-four fs-18 lh-28 mb-0 mt-20">
+              <h4 class="hds-body-color-four fs-18 lh-28 mb-0 mt-20">
                 Como Hacer el Reporte de Pago
-              </h6>
+              </h4>
               <p class="ff-inter fw-400 lh-22 fs-14 mt-10 mb-0">Tipo de Cambio : USD $1.00 = S/3.89</p>
               <p class="ff-inter fw-400 lh-22 fs-14 mt-10 mb-0">
                 En agentes Bcp, Interbank, Banco de la nación, Continental, ubicados en farmacias o boticas, tiendas, etc, a su alcance, también domingos y feriados, no incluye ninguna comisión bancaria, el pago sería a las cuentas en soles.
@@ -36,10 +36,10 @@
               </div>
             </div>
           </div>
-          <form action="" method="post" enctype="multipart/form-data" name="form1" class="mt-5">
-            <h6 class="hds-body-color-four fs-18 lh-28 mb-3 mt-20">
+          <form action="" method="post" enctype="multipart/form-data" name="form1" class="mt-5 border-form">
+            <h4 class="hds-body-color-four fs-18 lh-28 pb-4 my-4">
               Ingresa los siguientes campos para enviarnos los datos del pago
-            </h6>
+            </h4>
 
             <div class="row">
               <div class="col-md-6 mb-3">

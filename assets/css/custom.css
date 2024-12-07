@@ -1307,7 +1307,13 @@ mark.text-primary {
 }
 
 .left-bottom {
-  left: 0;
+  left: -10%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.right-bottom {
+  right: -10%;
   bottom: 0;
   z-index: -1;
 }
@@ -1393,6 +1399,10 @@ mark.text-primary {
   /* Oculto por defecto */
 }
 
+.border-form {
+  border: 1px solid #ebebeb;
+  padding: 1.5rem;
+}
 
 
 
