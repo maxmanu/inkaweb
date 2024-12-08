@@ -859,6 +859,27 @@ mark.text-primary {
   width: 300px;
 }
 
+.hm10-primary-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  border: 1px solid #1f1f1f;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: #ffb217;
+  -webkit-box-shadow: 0 4px #1f1f1f;
+  box-shadow: 0 4px #1f1f1f;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  color: #001042;
+}
+
+.hm10-pricing-box {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 40px;
+}
+
 .hm10-primary-btn,
 .hm10-pricing-box.pro .pricing-title {
   background-color: #ff1212;
@@ -1404,16 +1425,229 @@ mark.text-primary {
   padding: 1.5rem;
 }
 
+.megamenu-item ul li a {
+  padding: 5px 15px !important;
+}
 
+.rs-table .accordion-item {
+  border: 0;
+}
 
+.rs-table .accordion-item .accordion-body {
+  padding: 0;
+}
 
+.rs-table table {
+  width: 100%;
+}
 
+.rs-table table th:first-child {
+  min-width: 280px;
+}
 
+.rs-table table th {
+  border: 1px solid rgb(244 244 244 / .3);
+  background: #ff1212;
+  color: #fff;
+  padding: 24px 40px;
+  min-width: 220px;
+}
 
+.rs-table table th .h4 {
+  color: #fff;
+  margin-bottom: 0;
+}
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Urbanist", sans-serif;
+  color: #001042;
+  font-weight: 700;
+}
 
+.rs-table table th span.plan-title {
+  font-family: "Urbanist", sans-serif;
+  margin-bottom: 8px;
+  display: block;
+}
 
+.rs-table table th .h4.price {
+  color: #ffc700;
+}
 
+.rs-table table th .h4 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.rs-table table th .template-btn {
+  margin-top: 16px;
+}
+
+.rs-info-table td:first-child {
+  min-width: 280px;
+}
+
+.rs-info-table td {
+  border: 1px solid #c0d5ff;
+  padding: 12px 24px;
+  background: #f6f9ff;
+  min-width: 220px;
+}
+
+.rs-table .accordion-item+.accordion-item {
+  margin-top: 16px;
+}
+
+.rs-table .accordion-item .accordion-header a {
+  border: 0;
+  background: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: 700;
+  color: #001042;
+}
+
+.app_list_item {
+  padding: 20px 25px;
+}
+
+.deep-shadow {
+  -webkit-box-shadow: 0 12px 50px rgb(125 125 125 / .1);
+  box-shadow: 0 12px 50px rgb(125 125 125 / .1);
+}
+
+.h6 {
+  font-size: 1.125rem;
+}
+
+.ds-faq-controls li button.active::before {
+  opacity: 1;
+}
+
+.ds-faq-controls li button::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
+  width: 98%;
+  height: 25px;
+  background: linear-gradient(95.45deg, #e94d3a .64%, #ff1212 98.23%);
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 0;
+  z-index: -1;
+}
+
+.rs-table table th .h4 span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rs-table table th .h4.price span {
+  color: #fff;
+}
+
+.hm10-pricing-box {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 40px;
+}
+
+.hm10-pricing-box .pricing-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 520px;
+}
+
+.hm10-pricing-box .pricing-amount {
+  padding-left: 40px;
+  border-left: 1px solid rgb(0 16 66 / .1);
+}
+
+h3 {
+  font-size: 1.875em;
+}
+
+.fs-sm {
+  font-size: 14px;
+}
+
+.hm10-pricing-box .pricing-title {
+  background-color: rgb(255 178 23 / .1);
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.hm10-pricing-box .pricing-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 520px;
+}
+
+.hm10-pricing-box .pricing-features li {
+  font-size: 14px;
+  width: calc(50% - 5px);
+}
+
+.hm10-pricing-box .pricing-features li i {
+  color: #00d172;
+}
+
+.card-23-item:hover {
+  background-color: #fff;
+}
+
+.cp-accordion::before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: #002ea7;
+}
+
+.cp-accordion .accordion-single {
+  background: #001580;
+  border: 1px solid rgb(255 255 255 / .2);
+  border-radius: 5px;
+  position: relative;
+}
+
+.cp-accordion .accordion-single::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(95.45deg, #e94d3a .64%, #ff1212 98.23%);
+}
+
+.cp-accordion .accordion-single+.accordion-single {
+  margin-top: 20px;
+}
 
 
 

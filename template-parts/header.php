@@ -46,7 +46,8 @@
   <link rel="stylesheet" href="assets/css/fontawesome-min.css" />
   <link rel="stylesheet" href="assets/css/swiper-min.css" />
   <link rel="stylesheet" href="assets/css/bootstrap-slider-min.css" />
-  <link rel="stylesheet" href="dist/css/main.min.css" />
+  <link rel="stylesheet" href="assets/css/main-min.css" />
+  <!-- <link rel="stylesheet" href="dist/css/main.min.css" /> -->
   <link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
@@ -141,7 +142,7 @@
                           <div class="row">
                             <div class="col-md-6">
                               <div class="megamenu-item">
-                                <a href="">
+                                <a href="comparativo.php">
                                   <div class="menu-list-wrapper d-flex align-items-center">
                                     <span class="icon-wrapper"><i class="fa-solid fa-server"></i></span>
                                     <div class="menu-list-content-right ms-3">
@@ -150,15 +151,15 @@
                                     </div>
                                   </div>
                                 </a>
-                                <ul>
-                                  <li><a href="hosting-linux-personal.php"><span>>> Plan Hosting Personal</span></a></li>
-                                  <li><a href="https://www.inkawebdesign.com/hostingeconomico.php"><span>Plan Hosting Económico</span></a></li>
-                                  <li><a href="https://www.inkawebdesign.com/hostingbasico.php"><span>Plan Hosting Básico</span></a></li>
-                                  <li><a href="https://www.inkawebdesign.com/hostinggrancomienzo.php"><span>Plan Hosting Gran Comienzo</span></a></li>
-                                  <li><a href="https://www.inkawebdesign.com/hostingprofesional.php"><span>Plan Hosting Profesional</span></a></li>
-                                  <li><a href="https://www.inkawebdesign.com/hostingempresarial.php"><span>Plan Hosting Empresarial</span></a></li>
-                                  <li><a href="https://www.inkawebdesign.com/hostinggraninkaweb.php"><span>Plan Hosting Gran Inkaweb</span></a></li>
-                                  <li><a href="https://www.inkawebdesign.com/hostingcorporativo.php"><span>Plan Hosting Corporativo</span></a></li>
+                                <ul class="pt-2">
+                                  <li><a href="hosting-linux-personal.php"><small>Plan Hosting Personal</small></a></li>
+                                  <li><a href="https://www.inkawebdesign.com/hostingeconomico.php"><small>Plan Hosting Económico</small></a></li>
+                                  <li><a href="https://www.inkawebdesign.com/hostingbasico.php"><small>Plan Hosting Básico</small></a></li>
+                                  <li><a href="https://www.inkawebdesign.com/hostinggrancomienzo.php"><small>Plan Hosting Gran Comienzo</small></a></li>
+                                  <li><a href="https://www.inkawebdesign.com/hostingprofesional.php"><small>Plan Hosting Profesional</small></a></li>
+                                  <li><a href="https://www.inkawebdesign.com/hostingempresarial.php"><small>Plan Hosting Empresarial</small></a></li>
+                                  <li><a href="https://www.inkawebdesign.com/hostinggraninkaweb.php"><small>Plan Hosting Gran Inkaweb</small></a></li>
+                                  <li><a href="https://www.inkawebdesign.com/hostingcorporativo.php"><small>Plan Hosting Corporativo</small></a></li>
                                 </ul>
                               </div>
                             </div>
