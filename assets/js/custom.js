@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /** ------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* 
-   Formulario Libro de Reclamaciones.
+   Cookies
 */
 document.addEventListener('DOMContentLoaded', function () {
   const modal = document.getElementById('cookie-modal');

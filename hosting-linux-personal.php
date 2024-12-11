@@ -70,13 +70,13 @@
       <div class="col-lg-5">
         <div class="hm2-section-desc mt-3 mt-lg-0">
           <p class="text-justify">Inkaweb ofrece las últimas y más modernas herramientas para la administración de web hosting a continuación mencionamos características importantes de nuestros planes. Todos nuestros servicios de web hosting cuentan con el podereso sistema de control cPanel en Español.</p>
-          <a href="features.html" class="hm2-explore-btn fw-bold position-relative">Ver todo</a>
+          <a href="#caracteristicas-plan" class="hm2-explore-btn fw-bold position-relative">Ver todo</a>
         </div>
       </div>
     </div>
     <div class="row g-4 mt-5 justify-content-center">
       <div class="col-xl-3 col-lg-4 col-md-6">
-        <div class="hm2-feature-card deep-shadow bg-white rounded-2">
+        <div class="hm2-feature-card deep-shadow bg-white rounded-2" id="caracteristicas-plan">
           <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-pen"></i></span>
           <h3 class="text-black h4 mt-4">Caraterísticas del Plan</h3>
           <ul class="list-features mt-3">
