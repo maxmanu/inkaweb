@@ -94,6 +94,12 @@ section {
   background-position: center;
 }
 
+.bg-hero-reseller {
+  background: linear-gradient(278.54deg, #3d302e70 15.93%, #3d302e 98.7%), url("../img/imagenes-inkaweb/bg-hero-reseller.webp");
+  background-size: cover;
+  background-position: center;
+}
+
 .bg-hero-contacto {
   background: linear-gradient(278.54deg, #3d302e70 15.93%, #3d302e 98.7%), url("../img/imagenes-inkaweb/bg-hero-contacto.webp");
   background-position: top center;
@@ -1941,14 +1947,43 @@ h3 {
   max-width: 85px;
 }
 
+.hm2-feature-card {
+  padding: 25px 20px;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
 
+.hm2-feature-card .icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(28 64 242 / .1);
+  color: #ff1212;
+  font-size: 25px;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
 
+.hm2-feature-card:hover .icon-wrapper {
+  background-color: #ff1212;
+  color: #fff;
+}
 
+.hm2-feature-card .icon-wrapper i {
+  -webkit-text-fill-color: #fff0;
+  -webkit-text-stroke-width: 1px;
+}
 
+.text-justify {
+  text-align: justify;
+}
 
+.section-hosting-features ul li {
+  margin-bottom: 5px;
+}
 
-
-
+.section-hosting-features ul li i {
+  color: #cfcfcf;
+}
 
 
 

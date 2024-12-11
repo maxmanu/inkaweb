@@ -341,7 +341,7 @@
 <!--control panel end-->
 
 <!--feature section start-->
-<section class="dd-feature ptb-120">
+<section class="dd-feature ptb-100">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-6">
@@ -364,7 +364,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-3.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Alojamiento Estable</h5>
           </div>
           <p class="mt-4">Nuestros servidores trabajan ininterrumpidamente para que las páginas Web que alojan siempre estén disponibles.</p>
@@ -373,7 +373,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-4.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Facil Administración</h5>
           </div>
           <p class="mt-4">Panel de control en español y su configuración permite la rápida comprensión de su funcionamiento.</p>
@@ -382,7 +382,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-5.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Soporte Técnico</h5>
           </div>
           <p class="mt-4">Servicio profesional con experiencia que brinda soluciones Web, estamos cuando nos necesitas. 24 x 7.</p>
@@ -391,7 +391,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-6.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Asesoría Gratuita</h5>
           </div>
           <p class="mt-4">Ayudamos a nuestros clientes en la administración y manejo del Cpanel y la atención a sus consultas.</p>
@@ -400,7 +400,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-4.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Garantía</h5>
           </div>
           <p class="mt-4">Nuestros Personal se capacita constantemente, supervisamos y actualizamos nuestros servidores.</p>
@@ -409,7 +409,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-4.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Alta Velocidad</h5>
           </div>
           <p class="mt-4">Equipos de última generación, servidores trabajando a 100 megabytes que favorecen la rápida transferencia de datos.</p>
@@ -418,7 +418,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-4.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Alta Conectividad</h5>
           </div>
           <p class="mt-4">Funcionamiento sin cortes de múltiples conexiones de ISP. Si un sistema falla los demás continúan trabajando.</p>
@@ -427,7 +427,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-5.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Backup</h5>
           </div>
           <p class="mt-4">Nuestros Servidores estan configurados para brindarle protección a sus datos tenemos una copia diaria y semanal.</p>
@@ -436,7 +436,7 @@
       <div class="col-xl-4 col-lg-6">
         <div class="dd-feature-card bg-white">
           <div class="d-flex align-items-center gap-3">
-            <img src="assets/img/icons/icon-6.svg" alt="icon" class="flex-shrink-0">
+            <img src="assets/img/icons/icon-2.svg" alt="icon" class="flex-shrink-0">
             <h5 class="mb-0">Experiencia Garantizada</h5>
           </div>
           <p class="mt-4">Nuestro Máximo Aval nuestra experiencia y prestigio ganado en años de arduo trabajo.</p>
