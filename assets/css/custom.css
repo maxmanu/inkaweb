@@ -1985,10 +1985,37 @@ h3 {
   color: #cfcfcf;
 }
 
+.hm2-feature-card a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ff1212;
+  line-height: 30px;
+  font-size: 14px;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  color: #ff1212;
+}
 
+.hm2-explore-btn {
+  color: #ff1212;
+  padding-left: 60px;
+}
 
+.hm2-explore-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(95.45deg, #e94d3a .64%, #ff1212 98.23%);
+}
 
-
+.hm2-feature-card:hover a {
+  background-color: #ff1212;
+  border-color: #ff1212;
+  color: #fff;
+}
 
 
 

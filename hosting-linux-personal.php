@@ -64,19 +64,19 @@
     <div class="row justify-content-between">
       <div class="col-lg-7">
         <div class="hm2-section-title">
-          <h2 class="host-fs-title text-black fs-48 fw-800"><mark class="text-primary">Hosting Personal</mark></h2>
-          <h3>Descubre todas las características</h3>
+          <h2 class="hm2-title"><mark>Descubre</mark> todas las <br>características del Plan</h2>
         </div>
       </div>
       <div class="col-lg-5">
         <div class="hm2-section-desc mt-3 mt-lg-0">
           <p class="text-justify">Inkaweb ofrece las últimas y más modernas herramientas para la administración de web hosting a continuación mencionamos características importantes de nuestros planes. Todos nuestros servicios de web hosting cuentan con el podereso sistema de control cPanel en Español.</p>
+          <a href="features.html" class="hm2-explore-btn fw-bold position-relative">Ver todo</a>
         </div>
       </div>
     </div>
     <div class="row g-4 mt-5 justify-content-center">
       <div class="col-xl-3 col-lg-4 col-md-6">
-        <div class="hm2-feature-card deep-shadow bg-white rounded-2 h-100">
+        <div class="hm2-feature-card deep-shadow bg-white rounded-2">
           <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-pen"></i></span>
           <h3 class="text-black h4 mt-4">Caraterísticas del Plan</h3>
           <ul class="list-features mt-3">
@@ -96,8 +96,8 @@
           </ul>
         </div>
       </div>
-      <div class="col-xl-3 col-lg-4 col-md-6">
-        <div class="hm2-feature-card deep-shadow bg-white rounded-2 h-100">
+      <!-- <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="hm2-feature-card deep-shadow bg-white rounded-2">
           <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-envelope"></i></span>
           <h3 class="text-black h4 mt-4">E-mail</h3>
           <ul class="list-features mt-3">
@@ -110,7 +110,7 @@
         </div>
       </div>
       <div class="col-xl-3 col-lg-4 col-md-6">
-        <div class="hm2-feature-card deep-shadow bg-white rounded-2 h-100">
+        <div class="hm2-feature-card deep-shadow bg-white rounded-2">
           <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-rocket"></i></span>
           <h3 class="text-black h4 mt-4">Tecnologías Soportadas</h3>
           <ul class="list-features mt-3">
@@ -121,9 +121,9 @@
             <li><i class="fa-solid fa-circle-check me-2"></i>5 Base de Datos Mysql</li>
           </ul>
         </div>
-      </div>
+      </div> -->
       <div class="col-xl-3 col-lg-4 col-md-6">
-        <div class="hm2-feature-card deep-shadow bg-white rounded-2 h-100">
+        <div class="hm2-feature-card deep-shadow bg-white rounded-2">
           <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-hammer"></i></span>
           <h3 class="text-black h4 mt-4">Servicios</h3>
           <ul class="list-features mt-3">
@@ -135,7 +135,35 @@
             <li><i class="fa-solid fa-circle-check me-2"></i>Backup Semanal</li>
             <li><i class="fa-solid fa-circle-check me-2"></i>Páginas de Error</li>
             <li><i class="fa-solid fa-circle-check me-2"></i>HotLink Protection</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>Webmail</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>Imap</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>SMTP</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>Control SPAM</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>Antivirus</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>PHP</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>PERL</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>CGI-BIN</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>Extensiones FrontPage</li>
+            <li><i class="fa-solid fa-circle-check me-2"></i>5 Base de Datos Mysql</li>
           </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="hm2-feature-card host-aweb-style deep-shadow bg-white rounded-2">
+          <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-gauge-simple-high"></i></span>
+          <h3 class="h4 mt-4">Maximum <br>Performance</h3>
+          <p class="mt-3">Choice for growing agencies and support that acts asyour ecommerce businesses.
+          </p>
+          <a href="#" class="mt-2 d-inline-block rounded-circle text-center position-relative overflow-hidden"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="hm2-feature-card host-aweb-style deep-shadow bg-white rounded-2">
+          <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-cloud-arrow-down"></i></span>
+          <h3 class="h4 mt-4">Maximum <br>Data Transfer</h3>
+          <p class="mt-3">Choice for growing agencies and support that acts asyour ecommerce businesses.
+          </p>
+          <a href="#" class="mt-2 d-inline-block rounded-circle text-center position-relative overflow-hidden"><i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
