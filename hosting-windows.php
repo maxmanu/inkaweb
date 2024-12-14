@@ -196,7 +196,7 @@
 </section>
 <!--dedicated pricing end-->
 
-<div class="pb-120">
+<div class="ptb-120">
   <div class="container">
     <div class="text-center mb-40">
       <h2 class="text-black fs-48">La mejor tecnología para su negocio</h2>

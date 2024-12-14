@@ -1,11 +1,11 @@
 <?php include("template-parts/header.php") ?>
 
 <!--breadcrumb area start-->
-<section class="breadcrumb-area bg-primary-gradient bg-hero-reseller">
+<section class="breadcrumb-area bg-primary-gradient bg-hero-vps">
   <div class="container">
     <div class="breadcrumb-content text-center">
-      <h2 class="mb-3">Planes Reseller Hosting Linux</h2>
-      <p>No espere a tener más problemas con su actual proveedor no pierda más clientes, <br> nosotros le migramos todas sus cuentas de Cpanel.</p>
+      <h2 class="mb-3">Servidores VPS</h2>
+      <p>Alto rendimiento en todo momento</p>
       <ul class="rs-hero-checklist d-flex align-items-center justify-content-center flex-wrap text-white">
         <li class="me-3">
           <span class="me-1">
@@ -29,7 +29,7 @@
               <path d="M7.24995 13.9999C7.20187 13.9999 7.15431 13.9899 7.11026 13.9706C7.06621 13.9514 7.02663 13.9232 6.99399 13.8879L0.0926092 6.42356C0.0466029 6.37379 0.0161035 6.3117 0.00484399 6.24487C-0.00641553 6.17805 0.00205313 6.10939 0.0292136 6.0473C0.0563741 5.98521 0.101048 5.93239 0.157768 5.8953C0.214488 5.8582 0.280794 5.83844 0.34857 5.83844H3.67051C3.72039 5.83845 3.76969 5.84915 3.81507 5.86983C3.86046 5.8905 3.90089 5.92067 3.93362 5.9583L6.24009 8.61146C6.48936 8.0787 6.97189 7.19161 7.81866 6.11068C9.07047 4.51266 11.3989 2.16248 15.3826 0.0408999C15.4596 -9.70856e-05 15.5492 -0.0107374 15.6336 0.01108C15.7181 0.0328975 15.7913 0.0855868 15.8388 0.158744C15.8863 0.231901 15.9046 0.320208 15.8902 0.406227C15.8758 0.492247 15.8296 0.569726 15.7608 0.623366C15.7456 0.63525 14.2096 1.84465 12.4419 4.05989C10.815 6.09845 8.65238 9.4318 7.58821 13.7351C7.56952 13.8107 7.52604 13.8779 7.46471 13.9259C7.40338 13.9739 7.32774 14 7.24985 14L7.24995 13.9999Z" fill="white" />
             </svg>
           </span>
-          Gbit Port Speed
+          Discos SSD
         </li>
       </ul>
     </div>
@@ -37,26 +37,25 @@
 </section>
 <!--breadcrumb area end-->
 
-<section class="rs-feature ptb-120 ds-bg position-relative zindex-1 overflow-hidden">
+<section class="rs-feature pt-120 pb-100 ds-bg position-relative zindex-1 overflow-hidden">
   <span class="rs-rectangle-shape position-absolute zindex--1 end-0"></span>
   <div class="rs-ft-action">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="rs-ft-action-left">
-            <h2 class="mb-4">Reseller Hosting Linux</h2>
+            <h2 class="mb-4">Servidores VPS</h2>
             <p>
               <b>Inkawebdesign.com</b> ofrece planes revendedores no solamente para proveedores de Alojamiento Web o Hosting, si no para Diseñadores Web o negocios que requieren alojar múltiples dominios, le proveemos un espacio donde podrá crear muchas cuentas de Hosting para sus clientes, le entregaremos también un panel WHM (Web Hosting Manager) que es el administrador superior al Cpanel común que le brinda a su cliente. Desde este WHM podrá editar sus paquetes de Hosting, crear cuentas, suspender las cuentas y terminar las cuentas de sus clientes, un programa muy completo que le permitirá administrar correctamente a todos sus usuarios.
             </p>
             <p>
               Hosting Reseller le permite administrar varias cuentas de hosting, desde un panel de control llamado WHM, donde usted puede crear cuentas de hosting independientes, personalizadas, es ideal para diseñadores web, personas o empresas que administren varios dominios.
-
             </p>
           </div>
         </div>
         <div class="col-lg-6 align-self-center">
           <div class="rs-ft-action-right mt-60 mt-lg-0">
-            <img src="assets/img/imagenes-inkaweb/img-reseller.svg" alt="laptop" class="img-fluid" />
+            <img src="assets/img/imagenes-inkaweb/img-vps.svg" alt="laptop" class="img-fluid" />
           </div>
         </div>
       </div>
@@ -64,12 +63,12 @@
   </div>
 </section>
 
-<section class="hm7-pricing-section ptb-120 ds-bg">
+<section class="hm7-pricing-section ptb-100 ds-bg">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-6">
         <div class="hm7-title text-center">
-          <h5 class="hm7-subtitle fw-semibold mb-2">Planes Reseller Linux</h5>
+          <h5 class="hm7-subtitle fw-semibold mb-2">Planes VPS</h5>
           <h2 class="mb-0">Explora las principales funciones</h2>
         </div>
       </div>
@@ -81,7 +80,7 @@
             <table class="table">
               <tr>
                 <th class="crm-pricing-switch-wrapper position-relative">
-                  <span class="title">Planes Reseller</span>
+                  <span class="title">Planes VPS</span>
                   <div class="crm-pricing-switch mt-3">
                     <button class="crm-monthly">Mensual</button>
                     <span class="crm-switch">
@@ -549,10 +548,9 @@
     <div class="row">
       <div class="col-xl-5 col-lg-6">
         <div class="section-title">
-          <h2 class="mb-3">Beneficios Principales</h2>
+          <h2 class="mb-3">La mejor tecnología en nuestros planes VPS</h2>
           <p>
-            Efficiently redefine high-quality potentialities rather than innovative ideas. accurate infomediaries
-            with high technology.
+            ¡Nos enorgullece ofrecer actualizaciones sin preocupaciones en cualquier momento! En caso tal de que requiera mayor capacidad de espacio en disco, CPU y RAM, podremos actualizarlo de forma inmediata sin tiempo de inactividad.
           </p>
         </div>
       </div>
@@ -637,27 +635,6 @@
               Efficiently redefine high potentialitie rather than innovative idea acurate infomediaries with
               technology.
             </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="rs-cta ptb-60">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="rs-cta-content text-center">
-          <h2 class="text-white">NS1.SUEMPRESA.COM</h2>
-          <h2 class="text-white">NS2.SUEMPRESA.COM</h2>
-          <div class="rs-cta-btns d-flex align-items-center justify-content-center flex-wrap mt-5">
-            <ul class="list-features list-features-cta text-white">
-              <li><i class="fa-solid fa-circle-check me-2"></i>Nuestros Servidores gozan de buena reputación 99.5% Uptime garantizado.</li>
-              <li><i class="fa-solid fa-circle-check me-2"></i>Soporte Técnico Profesional 24/7/365.</li>
-              <li><i class="fa-solid fa-circle-check me-2"></i>Usted será totalmente anónimo con sus Servidores de Nombre Propios.(DNS Propias).</li>
-              <li><i class="fa-solid fa-circle-check me-2"></i>Nuestros planes son escalables por lo que puedes empezar con un plan básico y según tu necesidad ir avanzando.</li>
-            </ul>
           </div>
         </div>
       </div>
