@@ -46,8 +46,8 @@
   <link rel="stylesheet" href="assets/css/fontawesome-min.css" />
   <link rel="stylesheet" href="assets/css/swiper-min.css" />
   <link rel="stylesheet" href="assets/css/bootstrap-slider-min.css" />
-  <link rel="stylesheet" href="assets/css/main-min.css" />
-  <!-- <link rel="stylesheet" href="dist/css/main.min.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/css/main-min.css" /> -->
+  <link rel="stylesheet" href="dist/css/main.min.css" />
   <link rel="stylesheet" href="assets/css/custom.css" />
 </head>
 
@@ -180,17 +180,17 @@
                         </div>
                       </li>
                       <li class="has-submenu">
-                        <a href="javascript:void(0)">Diseño Web</a>
+                        <a href="diseno.php">Diseño Web</a>
                         <div class="submenu-wrapper menu-list theme-megamenu">
                           <div class="row">
                             <div class="col-md-6">
                               <div class="megamenu-item">
                                 <a href="diseno-pymes/">
                                   <div class="menu-list-wrapper d-flex align-items-center">
-                                    <span class="icon-wrapper"><i class="fa-solid fa-server"></i></span>
+                                    <span class="icon-wrapper"><i class="fa-solid fa-pencil"></i></span>
                                     <div class="menu-list-content-right ms-3">
                                       <h6>Diseño Web Pymes</h6>
-                                      <span>Ver listado</span>
+                                      <span>Ver Información</span>
                                     </div>
                                   </div>
                                 </a>
@@ -198,10 +198,10 @@
                               <div class="megamenu-item">
                                 <a href="diseno-empresarial/">
                                   <div class="menu-list-wrapper d-flex align-items-center">
-                                    <span class="icon-wrapper"><i class="fa-brands fa-wordpress"></i></span>
+                                    <span class="icon-wrapper"><i class="fa-solid fa-pencil"></i></span>
                                     <div class="menu-list-content-right ms-3">
                                       <h6>Diseño Web Empresarial</h6>
-                                      <span>Ver listado</span>
+                                      <span>Ver Información</span>
                                     </div>
                                   </div>
                                 </a>
@@ -211,10 +211,10 @@
                               <div class="megamenu-item">
                                 <a href="diseno-personalizado/">
                                   <div class="menu-list-wrapper d-flex align-items-center">
-                                    <span class="icon-wrapper"><i class="fa-brands fa-wordpress"></i></span>
+                                    <span class="icon-wrapper"><i class="fa-solid fa-pen-fancy"></i></span>
                                     <div class="menu-list-content-right ms-3">
                                       <h6>Diseño Web Personalizado</h6>
-                                      <span>Ver listado</span>
+                                      <span>Ver Información</span>
                                     </div>
                                   </div>
                                 </a>

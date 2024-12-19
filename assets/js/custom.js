@@ -185,3 +185,46 @@ document.addEventListener('DOMContentLoaded', function () {
     modal.style.display = 'none';
   });
 });
+
+/** ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* 
+   Swiper Portafolio
+*/
+const portafolio = new Swiper('.swiper-portafolio', {
+  grabCursor: true,
+  centeredSlides: false,
+  slidesPerView: 'auto',
+  spaceBetween: 30,
+  loop: false,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  keyboard: {
+    enabled: true,
+  },
+  mousewheel: {
+    thresholdDelta: 70,
+  },
+  breakpoints: {
+    1024: {
+      slidesPerView: 2,
+    },
+  },
+});
+let btns = document.querySelectorAll('.btn-more');
+let slides = document.querySelectorAll('.swiper-slide');
+let close = document.querySelectorAll('.close');
+
+for (let i = 0; i < slides.length; i++) {
+  btns[i].addEventListener('click', function () {
+    slides[i].classList.add('active');
+  });
+}
+
+for (let i = 0; i < close.length; i++) {
+  close[i].addEventListener('click', function () {
+    slides[i].classList.remove('active');
+  });
+}

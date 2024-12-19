@@ -1,368 +1,99 @@
 <?php include("template-parts/header.php") ?>
 
-<!--hero section start-->
-<section class="dm-hero-section position-relative ptb-100 zindex-1 overflow-hidden">
+<section class="dm-hero-section bg-hero-solid position-relative ptb-100 zindex-1 overflow-hidden">
   <img src="assets/img/shapes/sh-hero-bg.png" alt="shape" class="position-absolute left-bottom">
   <span class="dm-hero-circle position-absolute"></span>
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-7 order-2 order-lg-1">
+      <div class="col-lg-6 order-2 order-lg-1">
         <div class="dm-hero-left mt-5 mt-lg-0">
-          <h1>Busque y registre un dominio
-            para su sitio web</h1>
-          <p class="lead mt-4 mb-40">Dominios .COM .NET .ORG <br> desde <mark>$9.99.</mark> adquiriendo
-            HOSTING</p>
-          <form class="dm-hero-domain-form d-flex align-items-center">
-            <input type="text" placeholder="Ingresa tu dominio aquí">
-            <select class="form-select">
-              <option value="com" selected="selected">.com</option>
-              <option value="net">.net</option>
-              <option value="org">.org</option>
-              <option value="es">.es</option>
-              <option value="info">.info</option>
-              <option value="tv">.tv</option>
-              <option value="biz">.biz</option>
-              <option value="tel">.tel</option>
-              <option value="ws">.ws</option>
-              <option value="cc">.cc</option>
-              <option value="mobi">.mobi</option>
-              <option value="eu">.eu</option>
-              <option value="cat">.cat</option>
-              <option value="be">.be</option>
-              <option value="pe">.pe</option>
-              <option value="org.pe">.org.pe</option>
-              <option value="nom.pe">.nom.pe</option>
-              <option value="net.pe">.net.pe</option>
-              <option value="mil.pe">.mil.pe</option>
-              <option value="gob.pe">.gob.pe</option>
-              <option value="edu.pe">.edu.pe</option>
-              <option value="com.pe">.com.pe</option>
-            </select>
-            <input type="submit" value="Buscar" class="template-btn primary-btn border-0 flex-shrink-0">
-          </form>
+          <h1>DISEÑO Y <BR> PROGRAMACIÓN WEB</h1>
+          <p class="lead mt-4 mb-40">Diseño Web, Programación Web, Animación 3D, Animación de Personajes, desde la creación de este, música adecuada y voz, realizamos trabajo de Optimización Web, Posicionamiento Web que es lo mís importante.</p>
           <div class="dm-hero-label mt-30">
-            <span class="me-4">.pe, .com.pe , org.pe , edu.pe , net.pe (DOMINIOS PERUANOS)</span>
+            <span class="me-4">¿Necesita una pagina web personalizada, funcional
+              y lista en el mejor tiempo posible?</span>
           </div>
         </div>
       </div>
-      <div class="col-lg-5 order-1 order-lg-2">
+      <div class="col-lg-6 order-1 order-lg-2">
         <div class="sh-hero-right">
-          <img src="assets/img/imagenes-inkaweb/img-dominio-hero.webp" alt="shape">
+          <img src="assets/img/imagenes-inkaweb/img-hero-diseno-web.png" class="img-fluid" alt="shape">
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--hero section end-->
 
-<!--popular domain start-->
-<section class="dm-pp-domain ptb-120 position-relative overflow-hidden">
-  <img src="assets/img/shapes/dm-domain-bg.png" alt="bg" class="position-absolute left-bottom">
-  <img src="assets/img/shapes/dm-about-bg.png" alt="bg" class="position-absolute right-bottom">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6">
-        <div class="section-title text-center mb-40">
-          <h2 class="mb-30">Buscar por dominio más popular</h2>
-          <p>Elige entre una amplia variedad de extensiones a precios accesibles y obtén el dominio web perfecto para tu negocio.
-            El proceso es rápido y sencillo, además te entregaremos una factura válida para SUNAT.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center g-4">
-      <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="dm-pp-domain-item position-relative overflow-hidden zindex-1">
-          <img src="assets/img/imagenes-inkaweb/dominio-com-170x50.webp" alt="online" class="img-fluid original">
-          <img src="assets/img/imagenes-inkaweb/dominio-com-170x50.webp" alt="online" class="img-fluid on-hover">
-          <span class="dm-offer-badge fw-bold text-white position-absolute">Dominio .com</span>
-          <h6 class="mt-4">$13.00/año</h6>
-          <span class="subtitle">Credibilidad para tu negocio con la extensión más popular</span>
-          <a href="#">Buscar Dominio<i class="fa-solid fa-arrow-right-long"></i></a>
-          <span class="circle-small position-absolute"></span>
-          <span class="circle-shape shape-1 position-absolute"></span>
-          <span class="circle-shape shape-2 position-absolute"></span>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="dm-pp-domain-item position-relative overflow-hidden zindex-1">
-          <img src="assets/img/imagenes-inkaweb/dominio-pe-170x50.webp" alt="online" class="img-fluid original">
-          <img src="assets/img/imagenes-inkaweb/dominio-pe-170x50.webp" alt="online" class="img-fluid on-hover">
-          <span class="dm-offer-badge fw-bold text-white position-absolute">Dominio .pe</span>
-          <h6 class="mt-4">$13.00/año</h6>
-          <span class="subtitle">Extensión para dar identidad regional a tu sitio web en Perú</span>
-          <a href="#">Buscar Dominio<i class="fa-solid fa-arrow-right-long"></i></a>
-          <span class="circle-small position-absolute"></span>
-          <span class="circle-shape shape-1 position-absolute"></span>
-          <span class="circle-shape shape-2 position-absolute"></span>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="dm-pp-domain-item position-relative overflow-hidden zindex-1">
-          <img src="assets/img/imagenes-inkaweb/dominio-net-170x50.webp" alt="online" class="img-fluid original">
-          <img src="assets/img/imagenes-inkaweb/dominio-net-170x50.webp" alt="online" class="img-fluid on-hover">
-          <span class="dm-offer-badge fw-bold text-white position-absolute">Dominio .net</span>
-          <h6 class="mt-4">$13.00/año</h6>
-          <span class="subtitle">Popular extensión para páginas web de redes, tecnología o servicios de internet</span>
-          <a href="#">Buscar Dominio<i class="fa-solid fa-arrow-right-long"></i></a>
-          <span class="circle-small position-absolute"></span>
-          <span class="circle-shape shape-1 position-absolute"></span>
-          <span class="circle-shape shape-2 position-absolute"></span>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="dm-pp-domain-item position-relative overflow-hidden zindex-1">
-          <img src="assets/img/imagenes-inkaweb/dominio-org-170x50.webp" alt="online" class="img-fluid original">
-          <img src="assets/img/imagenes-inkaweb/dominio-org-170x50.webp" alt="online" class="img-fluid on-hover">
-          <span class="dm-offer-badge fw-bold text-white position-absolute">Dominio .org</span>
-          <h6 class="mt-4">$13.00/año</h6>
-          <span class="subtitle">La extensión más usada para sitios web de organizaciones sin fines de lucro</span>
-          <a href="#">Buscar Dominio<i class="fa-solid fa-arrow-right-long"></i></a>
-          <span class="circle-small position-absolute"></span>
-          <span class="circle-shape shape-1 position-absolute"></span>
-          <span class="circle-shape shape-2 position-absolute"></span>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="dm-pp-domain-item position-relative overflow-hidden zindex-1">
-          <img src="assets/img/imagenes-inkaweb/dominio-name-170x50.webp" alt="online" class="img-fluid original">
-          <img src="assets/img/imagenes-inkaweb/dominio-name-170x50.webp" alt="online" class="img-fluid on-hover">
-          <span class="dm-offer-badge fw-bold text-white position-absolute">Dominio .name</span>
-          <h6 class="mt-4">$13.00/año</h6>
-          <span class="subtitle">Extensión de uso exclusivo para la identificación de usuarios particulares</span>
-          <a href="#">Buscar Dominio<i class="fa-solid fa-arrow-right-long"></i></a>
-          <span class="circle-small position-absolute"></span>
-          <span class="circle-shape shape-1 position-absolute"></span>
-          <span class="circle-shape shape-2 position-absolute"></span>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="dm-pp-domain-item position-relative overflow-hidden zindex-1">
-          <img src="assets/img/imagenes-inkaweb/dominio-info-170x50.webp" alt="online" class="img-fluid original">
-          <img src="assets/img/imagenes-inkaweb/dominio-info-170x50.webp" alt="online" class="img-fluid on-hover">
-          <span class="dm-offer-badge fw-bold text-white position-absolute">Dominio .net</span>
-          <h6 class="mt-4">$13.00/año</h6>
-          <span class="subtitle">Extensión de dominio dirigido para páginas web de tipo informativo</span>
-          <a href="#">Buscar Dominio<i class="fa-solid fa-arrow-right-long"></i></a>
-          <span class="circle-small position-absolute"></span>
-          <span class="circle-shape shape-1 position-absolute"></span>
-          <span class="circle-shape shape-2 position-absolute"></span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--popular domain end-->
-
-<!--support section start-->
-<section class="dm-support bg-primary-gradient bg-need-help">
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-xl-5 col-lg-6 align-self-center">
-        <div class="dm-support-left">
-          <h2 class="mb-30">¿Necesita ayuda?</h2>
-          <p class="mb-30">Siempre estamos disponibles para brindarle cualquier ayuda que necesite. Sata estándar Proporciona todos los nuevos servidores privados virtuales con alta.</p>
-          <div class="dm-support-info">
-            <a href="tel:+88987456456" class="me-4"><i class="fa-solid fa-square-phone"></i>(01) 578 6934</a>
-            <a href="mailto:someone@mail.com"><i class="fa-brands fa-rocketchat"></i>Chat Online.</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 align-self-end">
-        <div class="dm-support-team">
-          <img src="assets/img/imagenes-inkaweb/support-team.webp" alt="support team" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--support section end-->
-
-<!-- Tabla de precios -->
-<section class="dm-feedback cmp-vps-pricing pt-120 pb-120 ds-bg">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-6">
-        <div class="section-title text-center">
-          <h2 class="mb-3">Precio de Dominios</h2>
-          <p class="mb-0">Te ofrecemos DOMINIOS de extensión .com, .net. o org a $13.00 USD. Si lo adquieres con un plan de Hosting, te rebajamos el costo del dominio a USD. 9.90. - El Ahorro correspondiente seria de $3.10 USD.</p>
-        </div>
-      </div>
-    </div>
-    <div class="vps-pricing-table mt-5 vps-pricing-table-2">
-      <table class="w-100 bg-white deep-shadow">
-        <thead>
-          <tr>
-            <th class="h5">
-              Dominio
-            </th>
-            <th class="h5 text-center">
-              Registro
-            </th>
-            <th class="h5 text-center">
-              Renovación
-            </th>
-            <th class="h5 text-center">
-              Transferencia
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>.com</td>
-            <td>US$ 13.00</td>
-            <td>US$ 13.00</td>
-            <td>US$ 13.00</td>
-          </tr>
-          <tr>
-            <td>.net</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>.org</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>.biz</td>
-            <td>US$ 21.00</td>
-            <td>US$ 21.00</td>
-            <td>US$ 21.00</td>
-          </tr>
-          <tr>
-            <td>.info</td>
-            <td>US$ 20.00</td>
-            <td>US$ 20.00</td>
-            <td>US$ 20.00</td>
-          </tr>
-          <tr>
-            <td>.us</td>
-            <td>US$ 10.00</td>
-            <td>US$ 10.00</td>
-            <td>US$ 10.00</td>
-          </tr>
-          <tr>
-            <td>.tv</td>
-            <td>US$ 42.00</td>
-            <td>US$ 42.00</td>
-            <td>US$ 42.00</td>
-          </tr>
-          <tr>
-            <td>.fm</td>
-            <td>US$ 72.00</td>
-            <td>US$ 72.00</td>
-            <td>US$ 72.00</td>
-          </tr>
-          <tr>
-            <td>.ws</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>.eu</td>
-            <td>US$ 17.00</td>
-            <td>US$ 17.00</td>
-            <td>US$ 17.00</td>
-          </tr>
-          <tr>
-            <td>.mobi</td>
-            <td>US$ 18.00</td>
-            <td>US$ 18.00</td>
-            <td>US$ 18.00</td>
-          </tr>
-          <tr>
-            <td>.es</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>.pe</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>com.pe</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>org.pe</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>edu.pe</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>gob.pe</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>net.pe</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>me</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>ca</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-          <tr>
-            <td>co</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-            <td>US$ 15.00</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
-<!--about section start-->
 <section class="dm-about-section ptb-120 position-relative zindex-1 overflow-hidden">
-  <img src="assets/img/shapes/dm-about-left.png" alt="shape" class="position-absolute left-top">
-  <img src="assets/img/shapes/dm-about-bg.png" alt="shape" class="position-absolute right-bottom">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <div class="section-title text-center">
-          <h2>¿Por qué elegir Inkaweb para dominios?</h2>
-          <p> El registro del dominio con INKAWEB le dará una serie de ventajas incluidas en el precio, sin ningún tipo de coste adicional.</p>
+          <h2>¿Qué servicios brindamos?</h2>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque dolorem ut beatae quibusdam enim? Sint eveniet ipsa dolorem totam.</p>
         </div>
       </div>
     </div>
     <div class="row mt-5 align-items-center justify-content-between">
       <div class="col-lg-5">
         <div class="dm-about-img">
-          <img src="assets/img/imagenes-inkaweb/about-1.png" alt="man" class="img-fluid">
+          <img src="assets/img/imagenes-inkaweb/img-diseno-web.svg" alt="man" class="img-fluid">
         </div>
       </div>
       <div class="col-lg-6">
         <div class="dm-about-content mt-40 mt-lg-0">
-          <h3 class="mb-4">Gestión de DNS</h3>
-          <p>Puede gestionar sus DNS de manera independiente y bajo nuestro asesoramiento.
+          <h3 class="mb-4">Diseño Web</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti repudiandae, aut qui nam temporibus nemo aspernatur nulla accusantium, adipisci consequatur in quae beatae nesciunt. Quia aliquam consequatur sequi ut laborum.
           </p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5 align-items-center justify-content-between">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <div class="dm-about-content mt-40 mt-lg-0">
+          <h3 class="mb-4">Desarrollo Web</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti repudiandae, aut qui nam temporibus nemo aspernatur nulla accusantium, adipisci consequatur in quae beatae nesciunt. Quia aliquam consequatur sequi ut laborum.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2">
+        <div class="dm-about-img">
+          <img src="assets/img/imagenes-inkaweb/img-desarrollo-web.svg" alt="man" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5 align-items-center justify-content-between">
+      <div class="col-lg-5">
+        <div class="dm-about-img">
+          <img src="assets/img/imagenes-inkaweb/img-aplicaciones-moviles.svg" alt="man" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="dm-about-content mt-40 mt-lg-0">
+          <h3 class="mb-4">Desarrollo de aplicaciones móviles</h3>
+          <p>Randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+          <p class="mb-0">Get WordPress in the cloud, fine-tuned for enterprise needs. Your traffic performance and exceptional user experiences.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-5 mt-5">
+      <div class="col-lg-6">
+        <div class="section-title text-center">
+          <h2>¿Cómo lo hacemos?</h2>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque dolorem ut beatae quibusdam enim? Sint eveniet ipsa dolorem totam.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5 align-items-center justify-content-between">
+      <div class="col-lg-5">
+        <div class="dm-about-img">
+          <img src="assets/img/imagenes-inkaweb/img-diseno-responsive.svg" alt="man" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="dm-about-content mt-40 mt-lg-0">
+          <h3 class="mb-4">Diseño Responsivo</h3>
+          <p>Randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
           <p class="mb-0">Get WordPress in the cloud, fine-tuned for enterprise needs. Your traffic performance and exceptional user experiences.</p>
         </div>
       </div>
@@ -370,117 +101,268 @@
     <div class="row mt-5 align-items-center justify-content-between">
       <div class="col-lg-6 order-2 order-lg-1">
         <div class="dm-about-content mt-40 mt-lg-0">
-          <h3 class="mb-4">Soporte 24hrs</h3>
-          <p>Obtenga un correo del tipo gerente@midominio.com, envie correos y redirecciones otros correos.</p>
-          <p class="mb-0">Get WordPress in the cloud, fine-tuned for enterprise needs. Your traffic performance and exceptional user experiences.</p>
+          <h3 class="mb-4">Optmización Web</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti repudiandae, aut qui nam temporibus nemo aspernatur nulla accusantium, adipisci consequatur in quae beatae nesciunt. Quia aliquam consequatur sequi ut laborum.
+          </p>
         </div>
       </div>
       <div class="col-lg-5 order-1 order-lg-2">
         <div class="dm-about-img">
-          <img src="assets/img/imagenes-inkaweb/about-2.png" alt="man" class="img-fluid">
-        </div>
-      </div>
-    </div>
-    <div class="row mt-5 align-items-center justify-content-between">
-      <div class="col-lg-5">
-        <div class="dm-about-img">
-          <img src="assets/img/imagenes-inkaweb/about-3.png" alt="man" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="dm-about-content mt-40 mt-lg-0">
-          <h3 class="mb-4">Datos protegidos</h3>
-          <p>Randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-          <p class="mb-0">Get WordPress in the cloud, fine-tuned for enterprise needs. Your traffic performance and exceptional user experiences.</p>
+          <img src="assets/img/imagenes-inkaweb/img-optimizacion-web.svg" alt="man" class="img-fluid">
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--about section end-->
-
-<!--faq section start-->
-<section class="dm-faq-section ptb-120 position-relative zindex-1">
+<section class="dm-about-section pt-5 position-relative zindex-1 overflow-hidden">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-7">
-        <div class="section-title text-center">
-          <h2>Preguntas Frecuentes sobre Dominios</h2>
-          <p>Randomised words which don't look even slightly believable. If you are going you need to be sure there isn't anything embarrassing.</p>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-title">
+          <h2>Nuestro Portafolio</h2>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque dolorem ut beatae quibusdam enim? Sint eveniet ipsa dolorem totam.</p>
         </div>
       </div>
     </div>
-    <div class="row mt-5">
+  </div>
+</section>
+
+<section>
+  <div class="swiper swiper-portafolio">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a class="btn-more" href="https://www.google.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+        <div class="swiper-content">
+          <div class="swiper-content-inner">
+            <span>Página Web</span>
+            <hr>
+            <h2>Empresa 1</h2>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="btn-more" href="https://www.google.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+        <div class="swiper-content">
+          <div class="swiper-content-inner">
+            <span>Página Web</span>
+            <hr>
+            <h2>Empresa 2</h2>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="btn-more" href="https://www.google.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+        <div class="swiper-content">
+          <div class="swiper-content-inner">
+            <span>Página Web</span>
+            <hr>
+            <h2>Empresa 3</h2>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="btn-more" href="https://www.google.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+        <div class="swiper-content">
+          <div class="swiper-content-inner">
+            <span>Página Web</span>
+            <hr>
+            <h2>Empresa 4</h2>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="btn-more" href="https://www.google.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+        <div class="swiper-content">
+          <div class="swiper-content-inner">
+            <span>Página Web</span>
+            <hr>
+            <h2>Empresa 5</h2>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="btn-more" href="https://www.google.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+        <div class="swiper-content">
+          <div class="swiper-content-inner">
+            <span>Página Web</span>
+            <hr>
+            <h2>Empresa 6</h2>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <a class="btn-more" href="https://www.google.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+        <div class="swiper-content">
+          <div class="swiper-content-inner">
+            <span>Página Web</span>
+            <hr>
+            <h2>Empresa 7</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="dm-about-section ptb-100 position-relative zindex-1 overflow-hidden">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-6">
-        <div class="dm-faq-left">
-          <div class="accordion dm-accordion" id="dm_accordion">
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <a href="#dm_item_one" data-bs-toggle="collapse">Why buy a domain name from Hostim?</a>
-              </div>
-              <div class="accordion-collapse collapse show" id="dm_item_one" data-bs-parent="#dm_accordion">
-                <div class="accordion-body">
-                  <p class="mb-0">Conveniently envisioneer standards compliant applications and viral growth strategies. Enthusiastically visualize backward-compatible outsourcing through progressive mindshare. Rapidiously fabricate visionary web services through ubiquitous architectures.Absolutely. </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <a href="#dm_item_two" data-bs-toggle="collapse">How do I choose a great domain name?</a>
-              </div>
-              <div class="accordion-collapse collapse" id="dm_item_two" data-bs-parent="#dm_accordion">
-                <div class="accordion-body">
-                  <p class="mb-0">Conveniently envisioneer standards compliant applications and viral growth strategies. Enthusiastically visualize backward-compatible outsourcing through progressive mindshare. Rapidiously fabricate visionary web services through ubiquitous architectures.Absolutely. </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <a href="#dm_item_three" data-bs-toggle="collapse">What domain name extensions are there?</a>
-              </div>
-              <div class="accordion-collapse collapse" id="dm_item_three" data-bs-parent="#dm_accordion">
-                <div class="accordion-body">
-                  <p class="mb-0">Conveniently envisioneer standards compliant applications and viral growth strategies. Enthusiastically visualize backward-compatible outsourcing through progressive mindshare. Rapidiously fabricate visionary web services through ubiquitous architectures.Absolutely. </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <a href="#dm_item_four" data-bs-toggle="collapse">What are new gTLDs or new domain extensions?</a>
-              </div>
-              <div class="accordion-collapse collapse" id="dm_item_four" data-bs-parent="#dm_accordion">
-                <div class="accordion-body">
-                  <p class="mb-0">Conveniently envisioneer standards compliant applications and viral growth strategies. Enthusiastically visualize backward-compatible outsourcing through progressive mindshare. Rapidiously fabricate visionary web services through ubiquitous architectures.Absolutely. </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <a href="#dm_item_five" data-bs-toggle="collapse">Does a domain name come with email?</a>
-              </div>
-              <div class="accordion-collapse collapse" id="dm_item_five" data-bs-parent="#dm_accordion">
-                <div class="accordion-body">
-                  <p class="mb-0">Conveniently envisioneer standards compliant applications and viral growth strategies. Enthusiastically visualize backward-compatible outsourcing through progressive mindshare. Rapidiously fabricate visionary web services through ubiquitous architectures.Absolutely. </p>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-header">
-                <a href="#dm_item_six" data-bs-toggle="collapse">I already have a domain name, can I transfer it to Hostim?</a>
-              </div>
-              <div class="accordion-collapse collapse" id="dm_item_six" data-bs-parent="#dm_accordion">
-                <div class="accordion-body">
-                  <p class="mb-0">Conveniently envisioneer standards compliant applications and viral growth strategies. Enthusiastically visualize backward-compatible outsourcing through progressive mindshare. Rapidiously fabricate visionary web services through ubiquitous architectures.Absolutely. </p>
-                </div>
-              </div>
-            </div>
+        <div class="section-title">
+          <h2>Etapas del Proceso</h2>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque dolorem ut beatae quibusdam enim? Sint eveniet ipsa dolorem totam.</p>
+        </div>
+      </div>
+    </div>
+    <div class="email-services-wrapper mt-60 position-relative zindex-1">
+      <div class="row g-4 justify-content-center">
+        <div class="col-xl-2 col-md-6 pt-5">
+          <div class="email-service-item text-center">
+            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
+              <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.5383 0H2.46021C1.10494 0 -0.000732422 1.08748 -0.000732422 2.42308V18.5769C-0.000732422 19.908 1.10002 21 2.46021 21H25.5383C26.8902 21 27.9993 19.9162 27.9993 18.5769V2.42308C27.9993 1.092 26.8985 0 25.5383 0ZM25.1985 1.61538L14.0514 12.591L2.80796 1.61538H25.1985ZM1.63989 18.2424V2.74987L9.54109 10.4628L1.63989 18.2424ZM2.79998 19.3846L10.7062 11.6001L13.4765 14.3043C13.7971 14.6174 14.3147 14.6164 14.634 14.3019L17.3352 11.6422L25.1986 19.3846H2.79998ZM26.3586 18.2424L18.4953 10.5L26.3586 2.75757V18.2424Z" fill="white" />
+              </svg>
+            </span>
+            <h5 class="mt-4 mb-3">Requerimientos</h5>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6 pb-4">
+          <div class="email-service-item text-center">
+            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
+              <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.5383 0H2.46021C1.10494 0 -0.000732422 1.08748 -0.000732422 2.42308V18.5769C-0.000732422 19.908 1.10002 21 2.46021 21H25.5383C26.8902 21 27.9993 19.9162 27.9993 18.5769V2.42308C27.9993 1.092 26.8985 0 25.5383 0ZM25.1985 1.61538L14.0514 12.591L2.80796 1.61538H25.1985ZM1.63989 18.2424V2.74987L9.54109 10.4628L1.63989 18.2424ZM2.79998 19.3846L10.7062 11.6001L13.4765 14.3043C13.7971 14.6174 14.3147 14.6164 14.634 14.3019L17.3352 11.6422L25.1986 19.3846H2.79998ZM26.3586 18.2424L18.4953 10.5L26.3586 2.75757V18.2424Z" fill="white" />
+              </svg>
+            </span>
+            <h5 class="mt-4 mb-3">Planning</h5>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6 pt-5">
+          <div class="email-service-item text-center">
+            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
+              <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.5383 0H2.46021C1.10494 0 -0.000732422 1.08748 -0.000732422 2.42308V18.5769C-0.000732422 19.908 1.10002 21 2.46021 21H25.5383C26.8902 21 27.9993 19.9162 27.9993 18.5769V2.42308C27.9993 1.092 26.8985 0 25.5383 0ZM25.1985 1.61538L14.0514 12.591L2.80796 1.61538H25.1985ZM1.63989 18.2424V2.74987L9.54109 10.4628L1.63989 18.2424ZM2.79998 19.3846L10.7062 11.6001L13.4765 14.3043C13.7971 14.6174 14.3147 14.6164 14.634 14.3019L17.3352 11.6422L25.1986 19.3846H2.79998ZM26.3586 18.2424L18.4953 10.5L26.3586 2.75757V18.2424Z" fill="white" />
+              </svg>
+            </span>
+            <h5 class="mt-4 mb-3">Wireframe</h5>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6">
+          <div class="email-service-item text-center">
+            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
+              <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.5383 0H2.46021C1.10494 0 -0.000732422 1.08748 -0.000732422 2.42308V18.5769C-0.000732422 19.908 1.10002 21 2.46021 21H25.5383C26.8902 21 27.9993 19.9162 27.9993 18.5769V2.42308C27.9993 1.092 26.8985 0 25.5383 0ZM25.1985 1.61538L14.0514 12.591L2.80796 1.61538H25.1985ZM1.63989 18.2424V2.74987L9.54109 10.4628L1.63989 18.2424ZM2.79998 19.3846L10.7062 11.6001L13.4765 14.3043C13.7971 14.6174 14.3147 14.6164 14.634 14.3019L17.3352 11.6422L25.1986 19.3846H2.79998ZM26.3586 18.2424L18.4953 10.5L26.3586 2.75757V18.2424Z" fill="white" />
+              </svg>
+            </span>
+            <h5 class="mt-4 mb-3">Diseño</h5>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6 pt-5">
+          <div class="email-service-item text-center">
+            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
+              <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.5383 0H2.46021C1.10494 0 -0.000732422 1.08748 -0.000732422 2.42308V18.5769C-0.000732422 19.908 1.10002 21 2.46021 21H25.5383C26.8902 21 27.9993 19.9162 27.9993 18.5769V2.42308C27.9993 1.092 26.8985 0 25.5383 0ZM25.1985 1.61538L14.0514 12.591L2.80796 1.61538H25.1985ZM1.63989 18.2424V2.74987L9.54109 10.4628L1.63989 18.2424ZM2.79998 19.3846L10.7062 11.6001L13.4765 14.3043C13.7971 14.6174 14.3147 14.6164 14.634 14.3019L17.3352 11.6422L25.1986 19.3846H2.79998ZM26.3586 18.2424L18.4953 10.5L26.3586 2.75757V18.2424Z" fill="white" />
+              </svg>
+            </span>
+            <h5 class="mt-4 mb-3">Desarrollo</h5>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-6">
+          <div class="email-service-item text-center">
+            <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
+              <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.5383 0H2.46021C1.10494 0 -0.000732422 1.08748 -0.000732422 2.42308V18.5769C-0.000732422 19.908 1.10002 21 2.46021 21H25.5383C26.8902 21 27.9993 19.9162 27.9993 18.5769V2.42308C27.9993 1.092 26.8985 0 25.5383 0ZM25.1985 1.61538L14.0514 12.591L2.80796 1.61538H25.1985ZM1.63989 18.2424V2.74987L9.54109 10.4628L1.63989 18.2424ZM2.79998 19.3846L10.7062 11.6001L13.4765 14.3043C13.7971 14.6174 14.3147 14.6164 14.634 14.3019L17.3352 11.6422L25.1986 19.3846H2.79998ZM26.3586 18.2424L18.4953 10.5L26.3586 2.75757V18.2424Z" fill="white" />
+              </svg>
+            </span>
+            <h5 class="mt-4 mb-3">Entrega</h5>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <img src="assets/img/imagenes-inkaweb/domain-names-bro.svg" alt="faq" class="faq-feature-img img-fluid">
 </section>
-<!--faq section end-->
+
+<section class="dm-about-section ptb-100 position-relative zindex-1 overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-title">
+          <h2>Planes a la medida</h2>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque dolorem ut beatae quibusdam enim? Sint eveniet ipsa dolorem totam.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card-plan">
+          <div class="content">
+            <img src="assets/img/imagenes-inkaweb/plan-pyme-web.jpg" alt="man" class="img-fluid">
+            <div class="title">Pymes</div>
+            <div class="price">S/500</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+          </div>
+          <button>
+            Ver más
+          </button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-plan">
+          <div class="content">
+            <img src="assets/img/imagenes-inkaweb/plan-empresarial-web.jpg" alt="man" class="img-fluid">
+            <div class="title">Empresarial</div>
+            <div class="price">S/700</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+          </div>
+          <button>
+            Ver más
+          </button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-plan">
+          <div class="content">
+            <img src="assets/img/imagenes-inkaweb/plan-personalizado-web.jpg" alt="man" class="img-fluid">
+            <div class="title">Personalizado</div>
+            <div class="price">Cotización</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+          </div>
+          <button>
+            Ver más
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php include("template-parts/footer.php") ?>
