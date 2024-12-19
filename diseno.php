@@ -246,7 +246,7 @@
     </div>
     <div class="email-services-wrapper mt-60 position-relative zindex-1">
       <div class="row g-4 justify-content-center">
-        <div class="col-xl-2 col-md-6 pt-5">
+        <div class="col-xl-2 col-md-6 pt-md-5">
           <div class="email-service-item text-center">
             <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
               <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -256,7 +256,7 @@
             <h5 class="mt-4 mb-3">Requerimientos</h5>
           </div>
         </div>
-        <div class="col-xl-2 col-md-6 pb-4">
+        <div class="col-xl-2 col-md-6 pb-md-4">
           <div class="email-service-item text-center">
             <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
               <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -266,7 +266,7 @@
             <h5 class="mt-4 mb-3">Planning</h5>
           </div>
         </div>
-        <div class="col-xl-2 col-md-6 pt-5">
+        <div class="col-xl-2 col-md-6 pt-md-5">
           <div class="email-service-item text-center">
             <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
               <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -286,7 +286,7 @@
             <h5 class="mt-4 mb-3">Diseño</h5>
           </div>
         </div>
-        <div class="col-xl-2 col-md-6 pt-5">
+        <div class="col-xl-2 col-md-6 pt-md-5">
           <div class="email-service-item text-center">
             <span class="icon-wrapper d-inline-flex align-items-center justify-content-center rounded-circle bg-light-red">
               <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -322,7 +322,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card-plan">
           <div class="content">
             <img src="assets/img/imagenes-inkaweb/plan-pyme-web.jpg" alt="man" class="img-fluid">
@@ -335,7 +335,7 @@
           </button>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card-plan">
           <div class="content">
             <img src="assets/img/imagenes-inkaweb/plan-empresarial-web.jpg" alt="man" class="img-fluid">
@@ -348,7 +348,7 @@
           </button>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card-plan">
           <div class="content">
             <img src="assets/img/imagenes-inkaweb/plan-personalizado-web.jpg" alt="man" class="img-fluid">
