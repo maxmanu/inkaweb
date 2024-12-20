@@ -119,6 +119,12 @@ section {
   background-repeat: no-repeat;
 }
 
+.bg-hero-diseno {
+  background: linear-gradient(278.54deg, #3d302e70 15.93%, #3d302e 98.7%), url("../img/imagenes-inkaweb/bg-hero-diseno.webp");
+  background-size: cover;
+  background-position: center;
+}
+
 .hm7-counter-circle .counter-circle-wrapper {
   background-color: #e94d3a;
 }
@@ -2889,8 +2895,34 @@ h3 {
   width: 90%;
 }
 
+.services-inner-box {
+  padding: 15px;
+  background: #ffffff;
+  margin-bottom: 30px;
+}
 
+.ser-icon {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  margin-bottom: 15px;
+}
 
+.ser-icon i {
+  font-size: 50px;
+  color: #333333;
+}
+
+.services-inner-box h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.outline-btn--red {
+  border: 1px solid #ff1212;
+  color: #ff1212;
+}
 
 
 

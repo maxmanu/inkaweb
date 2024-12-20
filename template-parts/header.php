@@ -185,7 +185,7 @@
                           <div class="row">
                             <div class="col-md-6">
                               <div class="megamenu-item">
-                                <a href="diseno-pymes/">
+                                <a href="diseno-pyme.php">
                                   <div class="menu-list-wrapper d-flex align-items-center">
                                     <span class="icon-wrapper"><i class="fa-solid fa-pencil"></i></span>
                                     <div class="menu-list-content-right ms-3">
@@ -196,7 +196,7 @@
                                 </a>
                               </div>
                               <div class="megamenu-item">
-                                <a href="diseno-empresarial/">
+                                <a href="diseno-empresarial.php">
                                   <div class="menu-list-wrapper d-flex align-items-center">
                                     <span class="icon-wrapper"><i class="fa-solid fa-pencil"></i></span>
                                     <div class="menu-list-content-right ms-3">
@@ -209,7 +209,7 @@
                             </div>
                             <div class="col-md-6">
                               <div class="megamenu-item">
-                                <a href="diseno-personalizado/">
+                                <a href="diseno-personalizado.php">
                                   <div class="menu-list-wrapper d-flex align-items-center">
                                     <span class="icon-wrapper"><i class="fa-solid fa-pen-fancy"></i></span>
                                     <div class="menu-list-content-right ms-3">

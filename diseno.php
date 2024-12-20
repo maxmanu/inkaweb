@@ -8,7 +8,7 @@
       <div class="col-lg-6 order-2 order-lg-1">
         <div class="dm-hero-left mt-5 mt-lg-0">
           <h1>DISEÑO Y <BR> PROGRAMACIÓN WEB</h1>
-          <p class="lead mt-4 mb-40">Diseño Web, Programación Web, Animación 3D, Animación de Personajes, desde la creación de este, música adecuada y voz, realizamos trabajo de Optimización Web, Posicionamiento Web que es lo mís importante.</p>
+          <p class="lead mt-4 mb-40">Diseño Web, Programación Web, Animación 3D, Animación de Personajes, desde la creación de este, música adecuada y voz, realizamos trabajo de Optimización Web, Posicionamiento Web.</p>
           <div class="dm-hero-label mt-30">
             <span class="me-4">¿Necesita una pagina web personalizada, funcional
               y lista en el mejor tiempo posible?</span>
@@ -114,6 +114,7 @@
     </div>
   </div>
 </section>
+
 <section class="dm-about-section pt-5 position-relative zindex-1 overflow-hidden">
   <div class="container">
     <div class="row">
