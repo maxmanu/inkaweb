@@ -4,7 +4,7 @@
 <section class="breadcrumb-area bg-primary-gradient bg-hero-diseno">
   <div class="container">
     <div class="breadcrumb-content text-center">
-      <h2 class="mb-3">Diseño Web Pyme</h2>
+      <h2 class="mb-3">Diseño Web Personalizado</h2>
       <p>Nuestro equipo de profesionales TI está a tu disposición. Siempre listos y en tu idioma,<br> estamos para ayudarte con cualquier servicio que hayas adquirido.</p>
     </div>
   </div>

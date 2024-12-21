@@ -228,3 +228,41 @@ for (let i = 0; i < close.length; i++) {
     slides[i].classList.remove('active');
   });
 }
+
+/** ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* 
+   Dropdown Categorías Carrito
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  // Referencia al botón del dropdown
+  const dropdownButton = document.getElementById('dropdownButton');
+
+  // Mostrar el contenido de "Hosting Linux" por defecto
+  document.querySelectorAll('.info-item').forEach((div) => {
+    div.style.display = 'none'; // Ocultar todos inicialmente
+  });
+  document.getElementById('linux').style.display = 'block'; // Mostrar "Hosting Linux"
+
+  // Configurar el comportamiento de las opciones del dropdown
+  document.querySelectorAll('.dropdown-item').forEach((item) => {
+    item.addEventListener('click', function (e) {
+      e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+      const category = this.getAttribute('data-category'); // Obtener la categoría seleccionada
+      const text = this.textContent.trim(); // Obtener el texto de la opción seleccionada
+
+      // Ocultar todas las secciones de información
+      document.querySelectorAll('.info-item').forEach((div) => {
+        div.style.display = 'none';
+      });
+
+      // Mostrar la sección de información correspondiente
+      const infoDiv = document.getElementById(category);
+      if (infoDiv) {
+        infoDiv.style.display = 'block';
+      }
+
+      // Cambiar el texto del botón del dropdown
+      dropdownButton.textContent = text;
+    });
+  });
+});
