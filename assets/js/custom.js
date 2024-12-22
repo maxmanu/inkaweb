@@ -266,3 +266,36 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+/** ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* 
+   Radio Buttons Tipo de Dominio
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  // Selecciona todos los radios y el contenedor de información
+  const radios = document.querySelectorAll('input[type="radio"][name="category"]');
+  const infoItems = document.querySelectorAll('.info-item');
+
+  // Configurar el evento de cambio en cada radio
+  radios.forEach((radio) => {
+    radio.addEventListener('change', function () {
+      // Ocultar todos los divs de información
+      infoItems.forEach((item) => (item.style.display = 'none'));
+
+      // Mostrar el div relacionado con el radio seleccionado
+      const selectedInfo = document.getElementById(`info-${this.value}`);
+      if (selectedInfo) {
+        selectedInfo.style.display = 'block';
+      }
+    });
+  });
+
+  // Mostrar el contenido inicial si algún radio está seleccionado por defecto
+  const checkedRadio = document.querySelector('input[type="radio"][name="category"]:checked');
+  if (checkedRadio) {
+    const initialInfo = document.getElementById(`info-${checkedRadio.value}`);
+    if (initialInfo) {
+      initialInfo.style.display = 'block';
+    }
+  }
+});
