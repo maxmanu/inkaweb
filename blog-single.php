@@ -162,7 +162,7 @@
             </ul>
           </div>
           <div class="sidebar-widget banner-widget">
-            <div class="banner-content bg-primary-gradient rounded-2 text-center position-relative zindex-1 overflow-hidden">
+            <div class="banner-content rounded-2 text-center position-relative zindex-1 overflow-hidden">
               <img src="assets/img/shapes/sidebar-bg.png" alt="net" class="position-absolute left-top soft-light w-100 opacity-50">
               <a href="index.php" class="logo-black"><img src="assets/img/imagenes-inkaweb/logo-inkaweb-dark.svg" alt="logo" class="logo"></a>
               <h6 class="text-white mt-3">Inkawebdesign.com es parte de Doctor Pc Perú E.I.R.L. más de 10 Años de solidez, y una amplia cartera de clientes nos respalda.

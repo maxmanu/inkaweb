@@ -309,7 +309,7 @@
               </div>
               <div class="app-content mt-4">
                 <a href="">
-                  <h3 class="h6 mb-3">Joomla Hosting</h3>
+                  <h3 class="h6 mb-3">Joomla</h3>
                 </a>
                 <p class="mb-20">Shared Hosting has grown to become the most popular which also makes it the number hackers.</p>
                 <a href="">
@@ -330,7 +330,7 @@
               </div>
               <div class="app-content mt-4">
                 <a href="">
-                  <h3 class="h6 mb-3">Drupal Hosting</h3>
+                  <h3 class="h6 mb-3">Drupal</h3>
                 </a>
                 <p class="mb-20">Shared Hosting has grown to become the most popular which also makes it the number hackers.</p>
                 <a href="">
@@ -351,7 +351,7 @@
               </div>
               <div class="app-content mt-4">
                 <a href="">
-                  <h3 class="h6 mb-3">WordPress Hosting</h3>
+                  <h3 class="h6 mb-3">WordPress</h3>
                 </a>
                 <p class="mb-20">Shared Hosting has grown to become the most popular which also makes it the number hackers.</p>
                 <a href="">
@@ -372,7 +372,7 @@
               </div>
               <div class="app-content mt-4">
                 <a href="">
-                  <h3 class="h6 mb-3">Shared Hosting</h3>
+                  <h3 class="h6 mb-3">Software</h3>
                 </a>
                 <p class="mb-20">Shared Hosting has grown to become the most popular which also makes it the number hackers.</p>
                 <a href="">
