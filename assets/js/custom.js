@@ -299,3 +299,32 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 });
+
+/** ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* 
+   Métodos de Pago
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  const select = document.getElementById('paymentMethod'); // Referencia al select
+  const infoItems = document.querySelectorAll('.info-item'); // Todos los divs de información
+
+  // Configurar el evento change
+  select.addEventListener('change', function () {
+    const selectedValue = select.value.toLowerCase(); // Obtener el valor seleccionado
+    // Ocultar todos los divs de información
+    infoItems.forEach((item) => (item.style.display = 'none'));
+    // Mostrar el div relacionado si existe
+    const selectedInfo = document.getElementById(`info-${selectedValue}`);
+    if (selectedInfo) {
+      selectedInfo.style.display = 'block';
+    }
+  });
+
+  // Mostrar contenido por defecto si el select tiene un valor inicial
+  if (select.value) {
+    const initialInfo = document.getElementById(`info-${select.value.toLowerCase()}`);
+    if (initialInfo) {
+      initialInfo.style.display = 'block';
+    }
+  }
+});
