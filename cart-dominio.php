@@ -28,7 +28,7 @@
               </div>
               <div title="Identificación" class="sc-dlUKyu btrwjN"><svg width="36" height="36" data-testid="progress-circle">
                   <circle cx="50%" cy="50%" r="15.5" stroke-width="5" class="sc-iSLKLn hblLnf step-active"></circle>
-                  <circle cx="50%" cy="50%" r="15.5" stroke-width="5" stroke-dasharray="97.38937226128358" stroke-dashoffset="97.38937226128358" class="sc-bbUAki bJOIDK"></circle><text data-testid="progress-circle-text" x="50%" y="60%" class="sc-leYdVB cQevNy">2</text>;
+                  <circle cx="50%" cy="50%" r="15.5" stroke-width="5" stroke-dasharray="97.38937226128358" stroke-dashoffset="97.38937226128358" class="sc-bbUAki bJOIDK"></circle><text data-testid="progress-circle-text" x="50%" y="60%" class="sc-leYdVB cQevNy">2</text>
                 </svg>
                 <div class="sc-krduYZ djGVnW">
                   <p class="sc-cAmkxU jTHeQM text-active mb-0">Opciones de Dominio</p>
@@ -36,7 +36,7 @@
               </div>
               <div title="Pago" class="sc-dlUKyu btrwjN"><svg width="36" height="36" data-testid="progress-circle">
                   <circle cx="50%" cy="50%" r="15.5" stroke-width="5" class="sc-iSLKLn hblLnf"></circle>
-                  <circle cx="50%" cy="50%" r="15.5" stroke-width="5" stroke-dasharray="97.38937226128358" stroke-dashoffset="97.38937226128358" class="sc-bbUAki bJOIDK"></circle><text data-testid="progress-circle-text" x="50%" y="60%" class="sc-leYdVB cQevNy">3</text>;
+                  <circle cx="50%" cy="50%" r="15.5" stroke-width="5" stroke-dasharray="97.38937226128358" stroke-dashoffset="97.38937226128358" class="sc-bbUAki bJOIDK"></circle><text data-testid="progress-circle-text" x="50%" y="60%" class="sc-leYdVB cQevNy">3</text>
                 </svg>
                 <div class="sc-krduYZ djGVnW">
                   <p class="sc-cAmkxU jTHeQM mb-0">Configurar</p>
@@ -44,7 +44,7 @@
               </div>
               <div title="Confirmación" class="sc-dlUKyu btrwjN"><svg width="36" height="36" data-testid="progress-circle">
                   <circle cx="50%" cy="50%" r="15.5" stroke-width="5" class="sc-iSLKLn hblLnf"></circle>
-                  <circle cx="50%" cy="50%" r="15.5" stroke-width="5" stroke-dasharray="97.38937226128358" stroke-dashoffset="97.38937226128358" class="sc-bbUAki bJOIDK"></circle><text data-testid="progress-circle-text" x="50%" y="60%" class="sc-leYdVB cQevNy">4</text>;
+                  <circle cx="50%" cy="50%" r="15.5" stroke-width="5" stroke-dasharray="97.38937226128358" stroke-dashoffset="97.38937226128358" class="sc-bbUAki bJOIDK"></circle><text data-testid="progress-circle-text" x="50%" y="60%" class="sc-leYdVB cQevNy">4</text>
                 </svg>
                 <div class="sc-krduYZ djGVnW">
                   <p class="sc-cAmkxU jTHeQM mb-0">Confirmar Pedido</p>
@@ -172,6 +172,18 @@
                                       <div class="sc-jWULZn kzyvEk">
                                         <div class="sc-ddnlvQ jgvBef"><button aria-label="Default aria-label" data-testid="domain-card-button-apply" title="Elegir" type="button" class="sc-eTwdGJ kGysuc">Elegir</button></div>
                                       </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div id="domain-register-preview" data-testid="domain-register-preview" class="sc-gpcHMt hLgypj mt-4">
+                                  <div class="sc-iODwXF iLYFam">
+                                    <div class="sc-gmCRdq dwwrbJ">
+                                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 508 508" style="enable-background:new 0 0 508 508;" xml:space="preserve" height="27">
+                                        <circle style="fill: rgb(255, 18, 18);" cx="254" cy="254" r="254" fill="#F2F2F2"></circle>
+                                        <circle style="" cx="254" cy="254" r="206.8" fill="#FFFFFF"></circle>
+                                        <path style="fill: rgb(255, 18, 18);" d="M305,254l60.1-60.1c14.1-14.1,14.1-36.9,0-51s-36.9-14.1-51,0L254,203l-60.1-60.1 c-14.1-14.1-36.9-14.1-51,0s-14.1,36.9,0,51L203,254l-60.1,60.1c-14.1,14.1-14.1,36.9,0,51s36.9,14.1,51,0L254,305l60.1,60.1 c14.1,14.1,36.9,14.1,51,0s14.1-36.9,0-51L305,254z" fill="#F2705B"></path>
+                                      </svg>
+                                      <p class="sc-UMyrj cOgPSo">Este dominio no esta disponible</p>
                                     </div>
                                   </div>
                                 </div>
