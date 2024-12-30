@@ -4085,7 +4085,7 @@ input[type="number"] {
 
 .price-soles,
 .inka-link {
-  color: #ff1212;
+  color: #ff1212 !important;
 }
 
 .btn--agregar-cart {
