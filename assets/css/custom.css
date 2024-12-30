@@ -5073,6 +5073,14 @@ input[type="number"] {
   .form-confirmation {
     padding: 20px 0;
   }
+
+  .ihoITg {
+    padding: 0;
+  }
+
+  .egpBfW {
+    display: block;
+  }
 }
 
 @media (max-width: 768px) {
@@ -5087,14 +5095,15 @@ input[type="number"] {
   }
 
   .value-input {
-    height: 15px;
-    width: 30px;
+    height: 30px;
+    width: 40px;
     line-height: 0;
   }
 
   .value-control {
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
   }
 
   .col-time {
@@ -5112,6 +5121,26 @@ input[type="number"] {
   .slider-hero-single::before {
     background-image: linear-gradient(85.83deg, #3d302e 43.12%, #3d302eac 71.17%, #3d302e00 98.05%);
   }
+
+  .input-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn--agregar-cart {
+    padding: 6px 5px 8px;
+  }
+
+  .form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0;
+  }
+
+  .form-check-label {
+    margin-left: 5px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -5123,6 +5152,10 @@ input[type="number"] {
 
   .display-font {
     font-size: 2.25rem;
+  }
+
+  .header-search::before {
+    display: none;
   }
 }
 

@@ -98,24 +98,27 @@
                                 <tbody>
                                   <tr>
                                     <th>Plan Personal</th>
-                                    <td class="text-center"><button
-                                        class="value-control"
-                                        onclick="numberInput.stepDown()"
-                                        title="Decrease value"
-                                        aria-label="Decrease value">-</button>
+                                    <td class="text-center">
+                                      <div class="input-time">
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepDown()"
+                                          title="Decrease value"
+                                          aria-label="Decrease value">-</button>
 
-                                      <input
-                                        class="value-input"
-                                        type="number"
-                                        value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        <input
+                                          class="value-input"
+                                          type="number"
+                                          value="1"
+                                          name="numberInput"
+                                          id="numberInput">
 
-                                      <button
-                                        class="value-control"
-                                        onclick="numberInput.stepUp()"
-                                        title="Increase value"
-                                        aria-label="Increase value">+</button>
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepUp()"
+                                          title="Increase value"
+                                          aria-label="Increase value">+</button>
+                                      </div>
                                     </td>
                                     <td class="text-center">
                                       <p class="sc-eHtaVP djOzNY">$15.00</p>
@@ -124,24 +127,27 @@
                                   </tr>
                                   <tr>
                                     <th>Plan Económico</th>
-                                    <td class="text-center"><button
-                                        class="value-control"
-                                        onclick="numberInput.stepDown()"
-                                        title="Decrease value"
-                                        aria-label="Decrease value">-</button>
+                                    <td class="text-center">
+                                      <div class="input-time">
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepDown()"
+                                          title="Decrease value"
+                                          aria-label="Decrease value">-</button>
 
-                                      <input
-                                        class="value-input"
-                                        type="number"
-                                        value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        <input
+                                          class="value-input"
+                                          type="number"
+                                          value="1"
+                                          name="numberInput"
+                                          id="numberInput">
 
-                                      <button
-                                        class="value-control"
-                                        onclick="numberInput.stepUp()"
-                                        title="Increase value"
-                                        aria-label="Increase value">+</button>
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepUp()"
+                                          title="Increase value"
+                                          aria-label="Increase value">+</button>
+                                      </div>
                                     </td>
                                     <td class="text-center">
                                       <p class="sc-eHtaVP djOzNY">$15.00</p>
@@ -150,24 +156,27 @@
                                   </tr>
                                   <tr>
                                     <th>Plan Básico</th>
-                                    <td class="text-center"><button
-                                        class="value-control"
-                                        onclick="numberInput.stepDown()"
-                                        title="Decrease value"
-                                        aria-label="Decrease value">-</button>
+                                    <td class="text-center">
+                                      <div class="input-time">
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepDown()"
+                                          title="Decrease value"
+                                          aria-label="Decrease value">-</button>
 
-                                      <input
-                                        class="value-input"
-                                        type="number"
-                                        value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        <input
+                                          class="value-input"
+                                          type="number"
+                                          value="1"
+                                          name="numberInput"
+                                          id="numberInput">
 
-                                      <button
-                                        class="value-control"
-                                        onclick="numberInput.stepUp()"
-                                        title="Increase value"
-                                        aria-label="Increase value">+</button>
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepUp()"
+                                          title="Increase value"
+                                          aria-label="Increase value">+</button>
+                                      </div>
                                     </td>
                                     <td class="text-center">
                                       <p class="sc-eHtaVP djOzNY">$15.00</p>
@@ -176,24 +185,27 @@
                                   </tr>
                                   <tr>
                                     <th>Plan Gran Comienzo</th>
-                                    <td class="text-center"><button
-                                        class="value-control"
-                                        onclick="numberInput.stepDown()"
-                                        title="Decrease value"
-                                        aria-label="Decrease value">-</button>
+                                    <td class="text-center">
+                                      <div class="input-time">
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepDown()"
+                                          title="Decrease value"
+                                          aria-label="Decrease value">-</button>
 
-                                      <input
-                                        class="value-input"
-                                        type="number"
-                                        value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        <input
+                                          class="value-input"
+                                          type="number"
+                                          value="1"
+                                          name="numberInput"
+                                          id="numberInput">
 
-                                      <button
-                                        class="value-control"
-                                        onclick="numberInput.stepUp()"
-                                        title="Increase value"
-                                        aria-label="Increase value">+</button>
+                                        <button
+                                          class="value-control"
+                                          onclick="numberInput.stepUp()"
+                                          title="Increase value"
+                                          aria-label="Increase value">+</button>
+                                      </div>
                                     </td>
                                     <td class="text-center">
                                       <p class="sc-eHtaVP djOzNY">$15.00</p>

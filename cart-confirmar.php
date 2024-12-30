@@ -153,7 +153,7 @@
                                 <div class="col-md-6">
                                   <input class="input" name="email" placeholder="Departamento / Estado *" type="email">
                                 </div>
-                                <div class="col-md-6 d-flex align-items-center">
+                                <div class="col-md-6 d-flex align-items-center justify-content-evenly">
                                   <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">Masculino</label>
@@ -163,7 +163,7 @@
                                     <label class="form-check-label" for="inlineRadio2">Femenino</label>
                                   </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 mt-2">
                                   <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                     <label class="form-check-label" for="invalidCheck">

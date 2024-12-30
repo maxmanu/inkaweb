@@ -328,7 +328,7 @@
               </div>
               <div class="col-xl-2 col-lg-3 col-6">
                 <div class="header-right d-flex align-items-center justify-content-end">
-                  <button class="dark-light-switcher me-md-2" id="theme-switch">
+                  <button class="dark-light-switcher me-md-2 d-none d-sm-block" id="theme-switch">
                     <span class="light-sun"><i class="fa-solid fa-sun"></i></span>
                     <span class="dark-moon"><i class="fa-solid fa-moon"></i></span>
                   </button>
@@ -342,7 +342,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="product-cart next">
+                  <div class="product-cart next d-none d-sm-block">
                     <a href="cart.php">
                       <svg width="16" height="16" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -386,6 +386,7 @@
       <button class="close-menu position-absolute"><i class="fa-solid fa-xmark"></i></button>
       <a href="index.php" class="logo-black"><img src="assets/img/imagenes-inkaweb/logo-inkaweb.svg" alt="logo" class="logo" /></a>
       <a href="index.html" class="logo-wrapper"><img src="assets/img/imagenes-inkaweb/logo-inkaweb-dark.svg" alt="logo" class="logo logo-white" /></a>
+
       <nav class="mobile-menu-wrapper mt-40">
 
       </nav>
