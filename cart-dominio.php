@@ -260,7 +260,7 @@
                   </div>
                 </div>
                 <div data-testid="resume-domain-cycle-info" class="sc-flAguQ haCWjf">
-                  <p class="sc-dmquGW fMXdTY"><span data-testid="resume-domain-cycle-message" class="sc-eiNpmX jDYfwZ">Con tu plan de hosting, <strong>¡ganas 1 año de dominio gratis!</strong></span><a href="#"><span data-testid="resume-domain-cycle-info-see-conditions" class="sc-fOfeEA fxeRbW"><u>Verifica las condiciones</u></span></a></p>
+                  <p class="sc-dmquGW fMXdTY"><span data-testid="resume-domain-cycle-message" class="sc-eiNpmX jDYfwZ">Con tu plan de hosting, <strong>¡ganas 1 año de dominio gratis!</strong></span><a target="_blank" href="terminos.php"><span data-testid="resume-domain-cycle-info-see-conditions" class="sc-fOfeEA fxeRbW"><u>Verifica las condiciones</u></span></a></p>
                 </div>
               </div>
               <div class="sc-rUGft eqTgNK"></div>
@@ -295,8 +295,12 @@
                   <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>0.00%</span></p>
                 </div>
                 <div class="sc-kHTDnN gpfHcL">
-                  <p class="sc-hHSgnV kdxsAJ">Ahorra hasta</p>
-                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>-$1.404,00</span></p>
+                  <p class="sc-hHSgnV kdxsAJ">Comisión por Tarjeta </p>
+                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>0.00%</span></p>
+                </div>
+                <div class="sc-kHTDnN gpfHcL">
+                  <p class="sc-hHSgnV kdxsAJ">Ahorra Total</p>
+                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>US$ 0.00</span></p>
                 </div>
                 <div class="sc-kHTDnN gpfHcL">
                   <div class="form-check sc-hHSgnV kdxsAJ">
@@ -305,13 +309,13 @@
                       + IGV 18%
                     </label>
                   </div>
-                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>-$1.404,00</span></p>
+                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>US$ 0.00</span></p>
                 </div>
               </div>
               <div class="sc-rUGft eqTgNK"></div>
               <div class="sc-hFFXrT gsPoYu mb-4">
                 <p class="sc-fZuPrs lctHZQ">Total del pedido</p>
-                <p data-testid="resume-balance-total" class="sc-jPGhGf cpuDvg"><span>$576,00</span></p>
+                <p data-testid="resume-balance-total" class="sc-jPGhGf cpuDvg"><span>US$ 576,00</span></p>
               </div>
               <div class="sc-jfBFGL jffbFi"><button aria-label="Continuar con la identificación" data-testid="button" title="Continuar con la identificación" type="button" class="sc-eTwdGJ kGysuc">Continuar</button></div>
               <div data-testid="refund-tag" class="sc-dOkGYn fiStcR mt-4">

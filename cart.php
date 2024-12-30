@@ -115,7 +115,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput1.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -123,12 +123,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput1"
+                                        id="numberInput1">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput1.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -143,7 +143,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput2.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -151,12 +151,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput2"
+                                        id="numberInput2">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput2.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -171,7 +171,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput3.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -179,12 +179,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput3"
+                                        id="numberInput3">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput3.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -199,7 +199,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput4.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -207,12 +207,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput4"
+                                        id="numberInput4">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput4.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -227,7 +227,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput5.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -235,12 +235,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput5"
+                                        id="numberInput5">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput5.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -255,7 +255,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput6.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -263,12 +263,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput6"
+                                        id="numberInput6">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput6.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -283,7 +283,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput7.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -291,12 +291,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput7"
+                                        id="numberInput7">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput7.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -311,7 +311,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput8.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -319,12 +319,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput8"
+                                        id="numberInput8">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput8.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -354,7 +354,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput9.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -362,12 +362,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput9"
+                                        id="numberInput9">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput9.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -382,7 +382,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput10.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -390,12 +390,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput10"
+                                        id="numberInput10">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput10.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -410,7 +410,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput11.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -418,12 +418,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput11"
+                                        id="numberInput11">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput11.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -438,7 +438,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput12.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -446,12 +446,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput12"
+                                        id="numberInput12">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput12.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -466,7 +466,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput13.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -474,12 +474,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput13"
+                                        id="numberInput13">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput13.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -494,7 +494,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput14.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -502,12 +502,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput14"
+                                        id="numberInput14">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput14.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -537,7 +537,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput15.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -545,12 +545,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput15"
+                                        id="numberInput15">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput15.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -565,7 +565,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput16.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -573,12 +573,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput16"
+                                        id="numberInput16">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput16.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -593,7 +593,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput17.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -601,12 +601,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput17"
+                                        id="numberInput17">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput17.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -621,7 +621,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput18.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -629,12 +629,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput18"
+                                        id="numberInput18">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput18.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -664,7 +664,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput19.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -672,12 +672,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput19"
+                                        id="numberInput19">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput19.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -692,7 +692,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput20.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -700,12 +700,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput20"
+                                        id="numberInput20">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput20.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -720,7 +720,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput21.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -728,12 +728,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput21"
+                                        id="numberInput21">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput21.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -748,7 +748,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput22.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -756,12 +756,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput22"
+                                        id="numberInput22">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput22.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -791,7 +791,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput23.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -799,12 +799,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput23"
+                                        id="numberInput23">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput23.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -819,7 +819,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput24.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -827,12 +827,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput24"
+                                        id="numberInput24">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput24.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -847,7 +847,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput25.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -855,12 +855,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput25"
+                                        id="numberInput25">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput25.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -875,7 +875,7 @@
                                     <td class="text-center"><i class="fa-solid fa-magnifying-glass"></i></td>
                                     <td class="text-center"><button
                                         class="value-control"
-                                        onclick="numberInput.stepDown()"
+                                        onclick="numberInput26.stepDown()"
                                         title="Decrease value"
                                         aria-label="Decrease value">-</button>
 
@@ -883,12 +883,12 @@
                                         class="value-input"
                                         type="number"
                                         value="1"
-                                        name="numberInput"
-                                        id="numberInput">
+                                        name="numberInput26"
+                                        id="numberInput26">
 
                                       <button
                                         class="value-control"
-                                        onclick="numberInput.stepUp()"
+                                        onclick="numberInput26.stepUp()"
                                         title="Increase value"
                                         aria-label="Increase value">+</button>
                                     </td>
@@ -937,7 +937,7 @@
                   </div>
                 </div>
                 <div data-testid="resume-domain-cycle-info" class="sc-flAguQ haCWjf">
-                  <p class="sc-dmquGW fMXdTY"><span data-testid="resume-domain-cycle-message" class="sc-eiNpmX jDYfwZ">Con tu plan de hosting, <strong>¡ganas 1 año de dominio gratis!</strong></span><a href="#"><span data-testid="resume-domain-cycle-info-see-conditions" class="sc-fOfeEA fxeRbW"><u>Verifica las condiciones</u></span></a></p>
+                  <p class="sc-dmquGW fMXdTY"><span data-testid="resume-domain-cycle-message" class="sc-eiNpmX jDYfwZ">Con tu plan de hosting, <strong>¡ganas 1 año de dominio gratis!</strong></span><a target="_blank" href="terminos.php"><span data-testid="resume-domain-cycle-info-see-conditions" class="sc-fOfeEA fxeRbW"><u>Verifica las condiciones</u></span></a></p>
                 </div>
               </div>
               <div class="sc-rUGft eqTgNK"></div>
@@ -972,8 +972,12 @@
                   <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>0.00%</span></p>
                 </div>
                 <div class="sc-kHTDnN gpfHcL">
-                  <p class="sc-hHSgnV kdxsAJ">Ahorra hasta</p>
-                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>-$1.404,00</span></p>
+                  <p class="sc-hHSgnV kdxsAJ">Comisión por Tarjeta </p>
+                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>0.00%</span></p>
+                </div>
+                <div class="sc-kHTDnN gpfHcL">
+                  <p class="sc-hHSgnV kdxsAJ">Ahorra Total</p>
+                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>US$ 0.00</span></p>
                 </div>
                 <div class="sc-kHTDnN gpfHcL">
                   <div class="form-check sc-hHSgnV kdxsAJ">
@@ -982,13 +986,13 @@
                       + IGV 18%
                     </label>
                   </div>
-                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>-$1.404,00</span></p>
+                  <p data-testid="resume-balance-discount" class="sc-dPuFdg ikkvcR"><span>US$ 0.00</span></p>
                 </div>
               </div>
               <div class="sc-rUGft eqTgNK"></div>
               <div class="sc-hFFXrT gsPoYu mb-4">
                 <p class="sc-fZuPrs lctHZQ">Total del pedido</p>
-                <p data-testid="resume-balance-total" class="sc-jPGhGf cpuDvg"><span>$576,00</span></p>
+                <p data-testid="resume-balance-total" class="sc-jPGhGf cpuDvg"><span>US$ 576,00</span></p>
               </div>
               <div class="sc-jfBFGL jffbFi"><button aria-label="Continuar con la identificación" data-testid="button" title="Continuar con la identificación" type="button" class="sc-eTwdGJ kGysuc">Continuar</button></div>
               <div data-testid="refund-tag" class="sc-dOkGYn fiStcR mt-4">
