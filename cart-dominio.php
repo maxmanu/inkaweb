@@ -113,7 +113,7 @@
                                   <p data-testid="register-domain-title" class="sc-cWPeQZ iSJIRy">Encuentra tu nuevo dominio</p>
                                 </div>
                                 <p data-testid="register-domain-subtitle" class="sc-eHtaVP djOzNY">Será el nombre de tu página en Internet y el dominio principal de tu cuenta.</p>
-                                <form class="dm-hero-domain-form d-flex align-items-center">
+                                <form class="dm-hero-domain-form d-flex align-items-center py-3">
                                   <input type="text" placeholder="Ingresa tu dominio aquí">
                                   <select class="form-select">
                                     <option value="com" selected="selected">.com</option>
@@ -183,7 +183,47 @@
                                         <circle style="" cx="254" cy="254" r="206.8" fill="#FFFFFF"></circle>
                                         <path style="fill: rgb(255, 18, 18);" d="M305,254l60.1-60.1c14.1-14.1,14.1-36.9,0-51s-36.9-14.1-51,0L254,203l-60.1-60.1 c-14.1-14.1-36.9-14.1-51,0s-14.1,36.9,0,51L203,254l-60.1,60.1c-14.1,14.1-14.1,36.9,0,51s36.9,14.1,51,0L254,305l60.1,60.1 c14.1,14.1,36.9,14.1,51,0s14.1-36.9,0-51L305,254z" fill="#F2705B"></path>
                                       </svg>
-                                      <p class="sc-UMyrj cOgPSo">Este dominio no esta disponible</p>
+                                      <p class="sc-UMyrj cOgPSo">Este dominio no esta disponible, pero hay estas opciones:</p>
+                                    </div>
+                                  </div>
+                                  <div class="sc-jNHgKk hwFaxD">
+                                    <div class="sc-gmQyQr OczFS">
+                                      <div class="sc-fDZUdJ hCogkM">
+                                        <p data-testid="domain-card-sld" class="sc-jcEtbA hnyQqu">wwww.ejemplo.net</p>
+                                      </div>
+                                      <div class="sc-fDZUdJ hCogkM">
+                                        <p data-testid="domain-card-tld" class="sc-fBNLhH kiLiCh">.net</p>
+                                      </div>
+                                      <p data-testid="domain-card-description" class="sc-jaskfy gEbvV">¡Buena elección! Tendrás un año de <strong>dominio gratis.</strong>. Esta promoción es válida para dominios de ciclo anual.</p>
+                                    </div>
+                                    <div class="sc-eCFVrV fgDnYj">
+                                      <p data-testid="domain-card-preview-price" class="sc-ibkupM bPfuaR"><span class="sc-jaSCiF bdcurQ">Gratis</span></p>
+                                      <div class="sc-dOpZeA hDVcUq">
+                                        <p data-testid="domain-card-preview-renewal" class="sc-jLVpRp eXWTsh"><span>Valor estimado de renovación $55,00</span></p>
+                                      </div>
+                                      <div class="sc-jWULZn kzyvEk">
+                                        <div class="sc-ddnlvQ jgvBef"><button aria-label="Default aria-label" data-testid="domain-card-button-apply" title="Elegir" type="button" class="sc-eTwdGJ kGysuc">Elegir</button></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="sc-jNHgKk hwFaxD">
+                                    <div class="sc-gmQyQr OczFS">
+                                      <div class="sc-fDZUdJ hCogkM">
+                                        <p data-testid="domain-card-sld" class="sc-jcEtbA hnyQqu">wwww.ejemplo.org</p>
+                                      </div>
+                                      <div class="sc-fDZUdJ hCogkM">
+                                        <p data-testid="domain-card-tld" class="sc-fBNLhH kiLiCh">.org</p>
+                                      </div>
+                                      <p data-testid="domain-card-description" class="sc-jaskfy gEbvV">¡Buena elección! Tendrás un año de <strong>dominio gratis.</strong>. Esta promoción es válida para dominios de ciclo anual.</p>
+                                    </div>
+                                    <div class="sc-eCFVrV fgDnYj">
+                                      <p data-testid="domain-card-preview-price" class="sc-ibkupM bPfuaR"><span class="sc-jaSCiF bdcurQ">Gratis</span></p>
+                                      <div class="sc-dOpZeA hDVcUq">
+                                        <p data-testid="domain-card-preview-renewal" class="sc-jLVpRp eXWTsh"><span>Valor estimado de renovación $55,00</span></p>
+                                      </div>
+                                      <div class="sc-jWULZn kzyvEk">
+                                        <div class="sc-ddnlvQ jgvBef"><button aria-label="Default aria-label" data-testid="domain-card-button-apply" title="Elegir" type="button" class="sc-eTwdGJ kGysuc">Elegir</button></div>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
