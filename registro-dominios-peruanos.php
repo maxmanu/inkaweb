@@ -44,7 +44,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="hds-hosting-feature hds-bg-color pt-50 pb-20 pl-50 pr-50 rounded-16 position-relative">
+        <div class="hds-hosting-feature hds-bg-color rounded-16 position-relative">
           <img class="position-absolute one" src="assets/img/home_13/feature_shape.png" alt="">
           <h5 class="text-white fs-28 lh-36 mb-30 font-ch-25">Dominios Peruanos</h5>
           <p class="hds-body-color-seven ff-inter fw-500 fs-16 lh-24 mb-0">Registramos dominios peruanos (.PE), para empresas, negocios e instituciones públicas y privadas que deseen identificarse bajo de denominación Perú y que no tengan la alternativa de disponiblidad del dominio .com, .net, .org. etc. ya que esta opcion este ocupada, o su negocio este dirigido netamente al mercado peruano, por ejemplo (www.suempresa.com.pe) Registro de dominios en Perú - Proteja su Dominio en Latinoamerica, terminaciones .net.pe, .pe, .org.pe, etc. Cualquiera de estos dominios por la compra de un plan de hosting se le deja a precio comercial de US$45.00 dolares americanos por un año. Ahora buscando su dominio en nuestro whois, le apareceran las opciones para poder reservar el dominio, y luego hacer el deposito para la activación del dominio y su plan de hosting respectivo, también registramos el dominio solo a US$48.00 dolares americanos. Cualquier duda consultar a infodominio peruano, hosting peruanoinkawebdesign.com.</p>

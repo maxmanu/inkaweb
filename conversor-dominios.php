@@ -75,7 +75,9 @@
           <div class="cd-cta-left mt-4 mt-lg-0">
             <h3 class="mb-3 text-white">Dominio IDN Original (Unicode)</h3>
             <input type="text" class="form-control" placeholder="Ej: ñandú" aria-label="First name">
-            <btn type="button" class="template-btn primary-btn">Encode >></btn>
+            <div class="text-center mt-3">
+              <btn type="button" class="template-btn primary-btn btn-encode">Encode <i class="fa-solid fa-angles-right"></i></btn>
+            </div>
             <p class="my-4">Punycode (código púny) es una sintaxis de codificación usada en programación que usa una cadena Unicode que puede ser traducida en una cadena de caracteres más limitada compatible con los nombres de red. La sintáxis está publicada en Internet en el documento RFC 3492.1 La codificacióm es usada como parte de IDNA, que es un sistema que habilita el uso de IDNA nombres de dominios internacionalizados (internationalized domain names) en todos los archivo de órdenes soportados por Unicode.</p>
           </div>
         </div>
@@ -83,9 +85,12 @@
           <div class="cd-cta-right">
             <h3 class="mb-3 text-white">Dominio Punycode (ACE)</h3>
             <input type="text" class="form-control" placeholder="Ej: xn--and-6ma2c" aria-label="Last name">
-            <btn type="button" class="template-btn primary-btn">
-              << Decode</btn>
-                <p class="my-4">Dominios DNI Un nombre de dominio internacionalizado o Internationalized Domain Name (IDN) es un nombre de dominio de Internet que (potencialmente) contiene caracteres no ASCII. Este tipo de dominios puede contener caracteres con acento diacrítico, como se requiere en muchos lenguajes europeos (entre ellos, el español), o caracteres de escrituras no latinas como la árabe y las chinas. Sin embargo, el estándar para nombres de dominio no permite tales caracteres, y la mayor parte del trabajo para elaborar una norma ha pasado por encontrar una forma de solucionar este tema, bien sea cambiando el estándar o acordando una manera de convertir los nombres de dominio internacionalizados en nombres de dominio en ASCII estándar mientras se mantenga la estabilidad del sistema de nombres de dominio.</p>
+            <div class="text-center mt-3">
+              <btn type="button" class="template-btn primary-btn btn-encode">
+                <i class="fa-solid fa-angles-left"></i> Decode
+              </btn>
+            </div>
+            <p class="my-4">Dominios DNI Un nombre de dominio internacionalizado o Internationalized Domain Name (IDN) es un nombre de dominio de Internet que (potencialmente) contiene caracteres no ASCII. Este tipo de dominios puede contener caracteres con acento diacrítico, como se requiere en muchos lenguajes europeos (entre ellos, el español), o caracteres de escrituras no latinas como la árabe y las chinas. Sin embargo, el estándar para nombres de dominio no permite tales caracteres, y la mayor parte del trabajo para elaborar una norma ha pasado por encontrar una forma de solucionar este tema, bien sea cambiando el estándar o acordando una manera de convertir los nombres de dominio internacionalizados en nombres de dominio en ASCII estándar mientras se mantenga la estabilidad del sistema de nombres de dominio.</p>
           </div>
         </div>
       </div>

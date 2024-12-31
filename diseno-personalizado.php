@@ -255,7 +255,7 @@
   </div>
 </section>
 
-<section>
+<section class="position-relative zindex-1 overflow-hidden">
   <div class="swiper swiper-portafolio">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
