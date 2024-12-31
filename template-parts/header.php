@@ -328,11 +328,11 @@
               </div>
               <div class="col-xl-2 col-lg-3 col-6">
                 <div class="header-right d-flex align-items-center justify-content-end">
-                  <button class="dark-light-switcher me-md-2 d-none d-sm-block" id="theme-switch">
+                  <button class="dark-light-switcher me-md-2 d-none d-md-block" id="theme-switch">
                     <span class="light-sun"><i class="fa-solid fa-sun"></i></span>
                     <span class="dark-moon"><i class="fa-solid fa-moon"></i></span>
                   </button>
-                  <div class="lang-switcher d-none d-sm-block dropdown">
+                  <div class="lang-switcher d-none d-md-block dropdown">
                     <a href="#" data-bs-toggle="dropdown"><span class="me-1"><i class="fa-solid fa-globe"></i></span>Es</a>
                     <div class="dropdown-menu dropdown-menu-end">
                       <ul>
@@ -342,7 +342,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="product-cart next d-none d-sm-block">
+                  <div class="product-cart next">
                     <a href="cart.php">
                       <svg width="16" height="16" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -388,7 +388,33 @@
       <a href="index.html" class="logo-wrapper"><img src="assets/img/imagenes-inkaweb/logo-inkaweb-dark.svg" alt="logo" class="logo logo-white" /></a>
 
       <nav class="mobile-menu-wrapper mt-40">
-
+        <ul>
+          <li><a href="index.php">Inicio</a></li>
+          <li class="has-submenu"><a href="javascript:void(0)" class="">Dominios</a>
+            <ul style="display: none;">
+              <li><a href="precios-dominios.php">Precio de Dominios</a></li>
+              <li><a href="registro-dominios-peruanos">Dominios Peruanos</a></li>
+              <li><a href="conversor-dominios.php">Conversor de Dominios con Ñ</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu"><a href="javascript:void(0)" class="">Hosting</a>
+            <ul class="submenu-wrapper" style="display: none;">
+              <li><a href="hosting-linux-personal.php">Hosting Personal</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Económico</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Básico</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Gran Comienzo</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Profesional</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Empresarial</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Gran Inkaweb</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Corporativo</a></li>
+              <li><a href="hosting-linux-personal.php">Hosting Windows</a></li>
+            </ul>
+          </li>
+          <li><a href="vps.php">VPS</a></li>
+          <li><a href="servidores.php">Servidores</a></li>
+          <li><a href="formas-pago.php">Formas de Pago</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
+        </ul>
       </nav>
       <div class="contact-info mt-60">
         <h4 class="mb-20">Contacto</h4>

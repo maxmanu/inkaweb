@@ -5010,10 +5010,29 @@ input[type="number"] {
 
 
 /*  Fin Carrito */
+.mobile-menu ul li {
+  display: block;
+}
 
+.mobile-menu ul li.has-submenu>a {
+  position: relative;
+}
 
+.mobile-menu ul li.has-submenu>a::after {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  color: #001042;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
 
-
+.mobile-menu ul li.has-submenu>a.icon-rotate::after {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
 
 
 
@@ -5141,6 +5160,10 @@ input[type="number"] {
   .form-check-label {
     margin-left: 5px;
   }
+
+  .product-cart::before {
+    display: none;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -5152,10 +5175,6 @@ input[type="number"] {
 
   .display-font {
     font-size: 2.25rem;
-  }
-
-  .header-search::before {
-    display: none;
   }
 }
 
