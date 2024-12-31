@@ -49,10 +49,11 @@
     rel="stylesheet" />
 
   <!--build:css-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <!-- endbuild -->
 
-  <link rel="stylesheet" href="assets/css/custom.css?vk=1728513153" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
 
   <script src="assets/js/vendor/jquery.min.js"></script>
   <script src="assets/js/jquery.character-counter.min.js"></script>
@@ -72,13 +73,14 @@
 
     <section class="signup-area ptb-100 position-relative zindex-1 login-area" data-background="assets/img/imagenes-inkaweb/bg-login.webp">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-end">
           <div class="col-lg-6">
             <div class="signup-form">
               <div class="form-header text-center">
-                <a href="index.php" class="logo-black"><img src="assets/img/imagenes-inkaweb/logo-inkaweb.svg" alt="logo" class="logo" /></a>
-                <a href="index.php" class="logo-white"><img src="assets/img/imagenes-inkaweb/logo-inkaweb-dark.svg" alt="logo" class="logo" /></a>
-                <h3 class="mt-3">Login</h3>
+                <h3 class="mt-3">
+                  <img src="assets/img/imagenes-inkaweb/favicon.png" alt="logo" class="img-fluid logo-login" style="max-width: 30px;    padding-bottom: 7px;" />
+                  Login
+                </h3>
               </div>
               <div class="signup-form-wrapper mt-40">
                 <form>
