@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="col-lg-6 text-center">
-        <img src="assets/img/imagenes-inkaweb/img-diseno-web.png" alt="laptop" class="img-fluid pt-3 pt-lg-0" />
+        <img src="assets/img/imagenes-inkaweb/img-diseno-web.png" alt="laptop" class="img-fluid pt-4 pt-lg-0" />
       </div>
     </div>
     <div id="services" class="section lb pt-5">
@@ -50,7 +50,7 @@
         <div class="col-md-4">
           <div class="services-inner-box">
             <div class="ser-icon">
-              <!-- icon666.com - MILLIONS vector ICONS FREE --><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <rect x="8" y="88" style="fill:#FFFFFF;" width="496" height="350.4" />
                 <rect x="40" y="120" style="fill:#2EA2DB;" width="432" height="258.4" />
                 <g>
@@ -94,7 +94,7 @@
         <div class="col-md-4">
           <div class="services-inner-box">
             <div class="ser-icon">
-              <!-- icon666.com - MILLIONS vector ICONS FREE --><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <g>
                   <polygon style="fill:#FFFFFF;" points="316.8,504 195.2,504 214.4,440 297.6,440 " />
                   <rect x="8" y="372" style="fill:#FFFFFF;" width="496" height="68" />
@@ -123,7 +123,7 @@
         <div class="col-md-4">
           <div class="services-inner-box">
             <div class="ser-icon">
-              <!-- icon666.com - MILLIONS vector ICONS FREE --><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <rect x="8.38" y="76.8" style="fill:#FFFFFF;" width="340" height="271.2" />
                 <rect x="40.38" y="108.8" style="fill:#FDBF5E;" width="276" height="207.2" />
                 <g>
@@ -158,7 +158,7 @@
         <div class="col-md-4">
           <div class="services-inner-box">
             <div class="ser-icon">
-              <!-- icon666.com - MILLIONS vector ICONS FREE --><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <g>
                   <path style="fill:#FFFFFF;" d="M428,500H84c-41.6,0-76-34.4-76-76l0,0h496l0,0C504,465.6,469.6,500,428,500z" />
                   <polyline style="fill:#FFFFFF;" points="477.6,91.2 477.6,424 34.4,424 34.4,91.2 " />
@@ -194,7 +194,7 @@
         <div class="col-md-4">
           <div class="services-inner-box">
             <div class="ser-icon">
-              <!-- icon666.com - MILLIONS vector ICONS FREE --><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <path style="fill:#FFFFFF;" d="M272,8L272,8C144,8,40,112,40,240l0,0c0,128,104,232,232,232l0,0c128,0,232-104,232-232l0,0 C504,112,400,8,272,8z" />
                 <path style="fill:#FDBF5E;" d="M272,65.6L272,65.6C175.2,65.6,97.6,144,97.6,240l0,0c0,96.8,78.4,174.4,174.4,174.4l0,0 c96.8,0,174.4-78.4,174.4-174.4l0,0C446.4,143.2,368.8,65.6,272,65.6z" />
                 <path style="fill:#FFFFFF;" d="M444,504H24c-8.8,0-16-7.2-16-16V360c0-8.8,7.2-16,16-16h420c8.8,0,16,7.2,16,16v128 C460,496.8,452.8,504,444,504z" />
@@ -218,7 +218,7 @@
         <div class="col-md-4">
           <div class="services-inner-box">
             <div class="ser-icon">
-              <!-- icon666.com - MILLIONS vector ICONS FREE --><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.8 512.8" style="enable-background:new 0 0 512.8 512.8;" xml:space="preserve">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.8 512.8" style="enable-background:new 0 0 512.8 512.8;" xml:space="preserve">
                 <path style="fill:#FFFFFF;" d="M32,374.406h448c7.2,0,12.8,3.2,17.6,8l-72.8-184.8c-2.4-6.4-8-10.4-15.2-10.4H102.4 c-7.2,0-12.8,4-15.2,10.4l-72.8,184C19.2,376.806,24.8,374.406,32,374.406z" />
                 <path style="fill:#FDBF5E;" d="M68.8,342.406l41.6-112c2.4-6.4,8-11.2,15.2-11.2h260.8c7.2,0,13.6,4.8,15.2,11.2l41.6,112H68.8z" />
                 <path style="fill:#FFFFFF;" d="M480,504.006H32c-13.6,0-24-10.4-24-24v-81.6c0-13.6,10.4-24,24-24h448c13.6,0,24,10.4,24,24v81.6 C504,493.606,493.6,504.006,480,504.006z" />

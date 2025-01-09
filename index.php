@@ -33,8 +33,7 @@
                   problemas.
                 </p>
                 <div class="hm7-hero-btns d-flex align-items-center flex-wrap">
-                  <a href="pricing.html" class="template-btn primary-btn">Empezar</a>
-                  <a href="pricing.html" class="template-btn outline-btn">Ver plan de precios</a>
+                  <a href="contacto.php" class="template-btn primary-btn">Contactános</a>
                 </div>
               </div>
             </div>
@@ -68,8 +67,7 @@
                   problema nosotros lo resolveremos.
                 </p>
                 <div class="hm7-hero-btns d-flex align-items-center flex-wrap">
-                  <a href="pricing.html" class="template-btn primary-btn">Empezar</a>
-                  <a href="pricing.html" class="template-btn outline-btn">Ver plan de precios</a>
+                  <a href="contacto.php" class="template-btn primary-btn">Contactános</a>
                 </div>
               </div>
             </div>
@@ -104,8 +102,7 @@
                   aplicaciones y mucho más, ¡todo con solo unos clics!.
                 </p>
                 <div class="hm7-hero-btns d-flex align-items-center flex-wrap">
-                  <a href="pricing.html" class="template-btn primary-btn">Empezar</a>
-                  <a href="pricing.html" class="template-btn outline-btn">Ver plan de precios</a>
+                  <a href="contacto.php" class="template-btn primary-btn">Contactános</a>
                 </div>
               </div>
             </div>
@@ -139,8 +136,7 @@
                   guardando automáticamente un backup de un día y otro backup de una semana.
                 </p>
                 <div class="hm7-hero-btns d-flex align-items-center flex-wrap">
-                  <a href="pricing.html" class="template-btn primary-btn">Empezar</a>
-                  <a href="pricing.html" class="template-btn outline-btn">Ver plan de precios</a>
+                  <a href="contacto.php" class="template-btn primary-btn">Contactános</a>
                 </div>
               </div>
             </div>
@@ -212,7 +208,7 @@
             </div>
             <div class="col-lg-5">
               <div class="box-right text-lg-center">
-                <img src="assets/img/imagenes-inkaweb/badge.png" loading="lazy" alt="badge" class="img-fluid" />
+                <img src="assets/img/imagenes-inkaweb/badge3.png" loading="lazy" alt="badge" class="img-fluid" />
               </div>
             </div>
           </div>
