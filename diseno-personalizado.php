@@ -238,7 +238,7 @@
       </div>
     </div>
     <div id="services" class="section lb pt-5">
-      <h3 class="py-3">Servicio de Diseño de Páginas Web incluye</h3>
+      <h3 class="py-3">Y con este plan también llévate</h3>
       <div class="row">
         <div class="col-md-4">
           <div class="services-inner-box">
