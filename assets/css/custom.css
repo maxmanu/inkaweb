@@ -5149,7 +5149,12 @@ input[type="number"] {
   list-style: circle;
 }
 
-
+.theme-megamenu-single {
+  padding: 15px;
+}
+.theme-megamenu-single ul{
+  width: 100%;
+}
 
 
 

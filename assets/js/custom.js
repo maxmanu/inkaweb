@@ -190,43 +190,60 @@ document.addEventListener('DOMContentLoaded', function () {
 /* 
    Swiper Portafolio
 */
-const portafolio = new Swiper('.swiper-portafolio', {
-  grabCursor: true,
-  centeredSlides: false,
-  slidesPerView: 'auto',
-  spaceBetween: 30,
-  loop: false,
-  slidesPerView: 1,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  keyboard: {
-    enabled: true,
-  },
-  mousewheel: {
-    thresholdDelta: 70,
-  },
-  breakpoints: {
-    1024: {
-      slidesPerView: 2,
+// Verificar si el elemento Swiper existe antes de inicializarlo
+const swiperElement = document.querySelector('.swiper-portafolio');
+
+if (swiperElement) {
+  const portafolio = new Swiper('.swiper-portafolio', {
+    grabCursor: true,
+    centeredSlides: false,
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+    loop: false,
+    slidesPerView: 1,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
-  },
-});
+    keyboard: {
+      enabled: true,
+    },
+    mousewheel: {
+      thresholdDelta: 70,
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 2,
+      },
+    },
+  });
+}
+
+// Verificar si los botones existen antes de usarlos
 let btns = document.querySelectorAll('.btn-more');
 let slides = document.querySelectorAll('.swiper-slide');
 let close = document.querySelectorAll('.close');
 
-for (let i = 0; i < slides.length; i++) {
-  btns[i].addEventListener('click', function () {
-    slides[i].classList.add('active');
-  });
+// Verificar que btns y slides tengan la misma longitud antes de agregar listeners
+if (btns.length > 0 && slides.length > 0) {
+  for (let i = 0; i < slides.length; i++) {
+    if (btns[i]) {
+      btns[i].addEventListener('click', function () {
+        slides[i].classList.add('active');
+      });
+    }
+  }
 }
 
-for (let i = 0; i < close.length; i++) {
-  close[i].addEventListener('click', function () {
-    slides[i].classList.remove('active');
-  });
+// Verificar que close y slides tengan la misma longitud antes de agregar listeners
+if (close.length > 0 && slides.length > 0) {
+  for (let i = 0; i < close.length; i++) {
+    if (close[i]) {
+      close[i].addEventListener('click', function () {
+        slides[i].classList.remove('active');
+      });
+    }
+  }
 }
 
 /** ------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -237,34 +254,51 @@ document.addEventListener('DOMContentLoaded', function () {
   // Referencia al botón del dropdown
   const dropdownButton = document.getElementById('dropdownButton');
 
-  // Mostrar el contenido de "Hosting Linux" por defecto
-  document.querySelectorAll('.info-item').forEach((div) => {
-    div.style.display = 'none'; // Ocultar todos inicialmente
-  });
-  document.getElementById('linux').style.display = 'block'; // Mostrar "Hosting Linux"
-
-  // Configurar el comportamiento de las opciones del dropdown
-  document.querySelectorAll('.dropdown-item').forEach((item) => {
-    item.addEventListener('click', function (e) {
-      e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
-      const category = this.getAttribute('data-category'); // Obtener la categoría seleccionada
-      const text = this.textContent.trim(); // Obtener el texto de la opción seleccionada
-
-      // Ocultar todas las secciones de información
-      document.querySelectorAll('.info-item').forEach((div) => {
-        div.style.display = 'none';
+  // Verificar si el botón del dropdown existe
+  if (dropdownButton) {
+    // Ocultar todos los divs de información inicialmente y mostrar solo "Hosting Linux"
+    const infoItems = document.querySelectorAll('.info-item');
+    if (infoItems.length > 0) {
+      infoItems.forEach((div) => {
+        div.style.display = 'none'; // Ocultar todos inicialmente
       });
 
-      // Mostrar la sección de información correspondiente
-      const infoDiv = document.getElementById(category);
-      if (infoDiv) {
-        infoDiv.style.display = 'block';
+      // Mostrar "Hosting Linux" si existe
+      const linuxInfo = document.getElementById('linux');
+      if (linuxInfo) {
+        linuxInfo.style.display = 'block';
       }
+    }
 
-      // Cambiar el texto del botón del dropdown
-      dropdownButton.textContent = text;
-    });
-  });
+    // Configurar el comportamiento de las opciones del dropdown
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
+    if (dropdownItems.length > 0) {
+      dropdownItems.forEach((item) => {
+        item.addEventListener('click', function (e) {
+          e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+
+          const category = this.getAttribute('data-category'); // Obtener la categoría seleccionada
+          const text = this.textContent.trim(); // Obtener el texto de la opción seleccionada
+
+          // Ocultar todas las secciones de información
+          if (infoItems.length > 0) {
+            infoItems.forEach((div) => {
+              div.style.display = 'none';
+            });
+          }
+
+          // Mostrar la sección de información correspondiente
+          const infoDiv = document.getElementById(category);
+          if (infoDiv) {
+            infoDiv.style.display = 'block';
+          }
+
+          // Cambiar el texto del botón del dropdown
+          dropdownButton.textContent = text;
+        });
+      });
+    }
+  }
 });
 
 /** ------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -306,25 +340,33 @@ document.addEventListener('DOMContentLoaded', function () {
 */
 document.addEventListener('DOMContentLoaded', function () {
   const select = document.getElementById('paymentMethod'); // Referencia al select
-  const infoItems = document.querySelectorAll('.info-item'); // Todos los divs de información
 
-  // Configurar el evento change
-  select.addEventListener('change', function () {
-    const selectedValue = select.value.toLowerCase(); // Obtener el valor seleccionado
-    // Ocultar todos los divs de información
-    infoItems.forEach((item) => (item.style.display = 'none'));
-    // Mostrar el div relacionado si existe
-    const selectedInfo = document.getElementById(`info-${selectedValue}`);
-    if (selectedInfo) {
-      selectedInfo.style.display = 'block';
-    }
-  });
+  // Verificar si el select existe antes de continuar
+  if (select) {
+    const infoItems = document.querySelectorAll('.info-item'); // Todos los divs de información
 
-  // Mostrar contenido por defecto si el select tiene un valor inicial
-  if (select.value) {
-    const initialInfo = document.getElementById(`info-${select.value.toLowerCase()}`);
-    if (initialInfo) {
-      initialInfo.style.display = 'block';
+    // Configurar el evento change
+    select.addEventListener('change', function () {
+      const selectedValue = select.value.toLowerCase(); // Obtener el valor seleccionado
+
+      // Ocultar todos los divs de información si existen
+      if (infoItems.length > 0) {
+        infoItems.forEach((item) => (item.style.display = 'none'));
+      }
+
+      // Mostrar el div relacionado si existe
+      const selectedInfo = document.getElementById(`info-${selectedValue}`);
+      if (selectedInfo) {
+        selectedInfo.style.display = 'block';
+      }
+    });
+
+    // Mostrar contenido por defecto si el select tiene un valor inicial
+    if (select.value) {
+      const initialInfo = document.getElementById(`info-${select.value.toLowerCase()}`);
+      if (initialInfo) {
+        initialInfo.style.display = 'block';
+      }
     }
   }
 });
