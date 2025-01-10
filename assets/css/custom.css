@@ -5236,7 +5236,39 @@ input[type="number"] {
   stroke-width: 1;
 }
 
+.buttons-portafolio {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
 
+.buttons-portafolio .swiper-button-next:after,
+.buttons-portafolio .swiper-button-prev:after {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.buttons-portafolio .swiper-button-next,
+.buttons-portafolio .swiper-button-prev {
+  border-radius: 50%;
+  background: white;
+  padding: 25px;
+}
+
+.buttons-portafolio .swiper-button-prev {
+  position: relative;
+  right: 0;
+  top: 0;
+  margin-right: 30px;
+  color: #ff1212;
+}
+
+.buttons-portafolio .swiper-button-next {
+  position: relative;
+  right: 0;
+  top: 0;
+  color: #ff1212;
+}
 
 
 
