@@ -308,10 +308,10 @@
               </div>
               <div class="col-xl-2 col-lg-3 col-6">
                 <div class="header-right d-flex align-items-center justify-content-end">
-                  <button class="dark-light-switcher me-md-2 d-none d-md-block" id="theme-switch">
+                  <!-- <button class="dark-light-switcher me-md-2 d-none d-md-block" id="theme-switch">
                     <span class="light-sun"><i class="fa-solid fa-sun"></i></span>
                     <span class="dark-moon"><i class="fa-solid fa-moon"></i></span>
-                  </button>
+                  </button> -->
                   <div class="lang-switcher d-none d-md-block dropdown">
                     <a href="#" data-bs-toggle="dropdown"><span class="me-1"><i class="fa-solid fa-globe"></i></span>Es</a>
                     <div class="dropdown-menu dropdown-menu-end">
