@@ -1,7 +1,7 @@
 <?php include("template-parts/header.php") ?>
 
 <!--breadcrumb area start-->
-<section class="breadcrumb-area bg-primary-gradient ">
+<section class="breadcrumb-area bg-primary-gradient bg-hero-nosotros">
   <div class="container">
     <div class="breadcrumb-content text-center">
       <h2 class="mb-3">Conoce Inkaweb Hosting</h2>
