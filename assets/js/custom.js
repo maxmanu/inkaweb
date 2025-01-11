@@ -370,3 +370,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 });
+
+/** ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* 
+   Boton Flotante
+*/
+$('.botonF1').hover(function () {
+  $('.btn-flot').addClass('animacionVer');
+});
+$('.contenedor').mouseleave(function () {
+  $('.btn-flot').removeClass('animacionVer');
+});

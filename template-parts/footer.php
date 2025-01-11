@@ -21,16 +21,16 @@
                     href="#"
                     class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white"><i class="fab fa-facebook-f"></i></a>
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     href="#"
                     class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                   <a
                     href="#"
                     class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white"><i class="fab fa-instagram"></i></a>
-                </li>
+                </li> -->
                 <li>
                   <a
                     href="#"
@@ -119,6 +119,27 @@
   </div>
 </footer>
 <!-- Footer Area End -->
+
+<!-- Boton Flotante -->
+<div class="contenedor d-block d-md-none">
+  <button class="botonF1">
+    <span>+</span>
+  </button>
+  <a>
+    <button class="btn-flot botonF2">
+      <span><i class="fab fa-facebook-f"></i></span>
+    </button>
+  </a>
+  <button class="btn-flot botonF3">
+    <span><i class="fab fa-linkedin"></i></span>
+  </button>
+  <button class="btn-flot botonF4">
+    <span><i class="fa-brands fa-whatsapp"></i></span>
+  </button>
+  <button class="btn-flot botonF5">
+    <span><i class="fa-solid fa-phone"></i></span>
+  </button>
+</div>
 
 <!-- Cookie Consent -->
 <div class="cookie-consent alert alert-warning fade show" id="cookie-modal">

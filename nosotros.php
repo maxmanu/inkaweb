@@ -18,38 +18,14 @@
       <div class="col-xl-6 col-lg-8">
         <div class="dd-about-content">
           <h2 class="mb-30">NOSOTROS</h2>
-          <p class="mb-20">Somos <b>DOCTOR PC PERU E.I.R.L</b> inscrita en la SUNAT con RUC 20515853724, legalmente constituida en los registros públicos de LIMA, se insertó en el mercado con el fin de proveer servicios informáticos, brindando soporte a grandes empresas interactuando con diversos clientes de diversos sectores.</p>
-          <p class="mb-20"> En todos esos años adquirimos una gran experiencia, solucionando casos reales y complejos, muchos de nuestros CLIENTES comentaban los diversos problemas que tenían con sus proveedores de Hosting, por lo que encontramos la necesidad de satisfacer una demanda para la cual estábamos totalmente preparados, es así como entramos con Inkawebdesign.com, actualmente somos Proveedores de Hosting de varias empresas de Perú, Latinoamérica, España y otros Países.</p>
-          <p> Nos sentimos contentos que empresas extranjeras y de nuestro gran Perú confíen en nosotros, actualmente ofrecemos los servicios de Hosting, Planes Reseller Hosting, Dominios, Radio Streaming, Video Streaming, Marketing por internet, Posicionamiento Web, Optimización Web, Diseño Web, Programación Web, algo que nos caracteriza es la calidad de Soporte que brindamos porque estamos formados para ello y el buen trato al cliente, se conjugan para ser Líderes en el Mercado de Hosting.</p>
-          <!-- <div class="row g-4">
-            <div class="col-sm-6">
-              <div class="dd-counter-widget d-flex align-items-center gap-3">
-                <span class="icon-wrapper position-relative z-1">
-                  <img src="assets/img/icons/gear-check.svg" alt="icon" class="img-fluid">
-                </span>
-                <div>
-                  <h2 class="mb-0"><span class="counter">50</span>k+</h2>
-                  <p class="mb-0">Satisfied Customers</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="dd-counter-widget d-flex align-items-center gap-3">
-                <span class="icon-wrapper position-relative z-1">
-                  <img src="assets/img/icons/gear-check.svg" alt="icon" class="img-fluid">
-                </span>
-                <div>
-                  <h2 class="mb-0"><span class="counter">50</span>k+</h2>
-                  <p class="mb-0">Satisfied Customers</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
+          <p class="mb-20 text-justify">Somos <b>DOCTOR PC PERU E.I.R.L</b> inscrita en la SUNAT con RUC 20515853724, legalmente constituida en los registros públicos de LIMA, se insertó en el mercado con el fin de proveer servicios informáticos, brindando soporte a grandes empresas interactuando con diversos clientes de diversos sectores.</p>
+          <p class="mb-20 text-justify"> En todos esos años adquirimos una gran experiencia, solucionando casos reales y complejos, muchos de nuestros CLIENTES comentaban los diversos problemas que tenían con sus proveedores de Hosting, por lo que encontramos la necesidad de satisfacer una demanda para la cual estábamos totalmente preparados, es así como entramos con Inkawebdesign.com, actualmente somos Proveedores de Hosting de varias empresas de Perú, Latinoamérica, España y otros Países.</p>
+          <p class="text-justify"> Nos sentimos contentos que empresas extranjeras y de nuestro gran Perú confíen en nosotros, actualmente ofrecemos los servicios de Hosting, Planes Reseller Hosting, Dominios, Radio Streaming, Video Streaming, Marketing por internet, Posicionamiento Web, Optimización Web, Diseño Web, Programación Web, algo que nos caracteriza es la calidad de Soporte que brindamos porque estamos formados para ello y el buen trato al cliente, se conjugan para ser Líderes en el Mercado de Hosting.</p>
         </div>
       </div>
       <div class="col-xl-6 col-lg-8">
-        <div class="image-wrapper mt-5">
-          <img src="assets/img/imagenes-inkaweb/img-nosotros.webp" alt="desk" class="img-fluid">
+        <div class="image-wrapper text-center mt-5">
+          <img src="assets/img/imagenes-inkaweb/img-nosotros-2.webp" alt="desk" class="img-fluid rounded shadow">
         </div>
       </div>
     </div>
@@ -58,7 +34,7 @@
 <!--about section end-->
 
 <!--service section start-->
-<section class="hm2-service-section pt-80 pb-80 overflow-hidden position-relative zindex-1 bg-primary-gradient">
+<section class="hm2-service-section pt-80 pb-80 overflow-hidden position-relative zindex-1" style="background-color:#E94D3A;">
   <!-- <img src="assets/img/home2/shape/service-left-circle.svg" alt="circle" class="position-absolute left-top opacity-25"> -->
   <div class="container">
     <div class="row g-5 align-items-center">
@@ -85,7 +61,7 @@
               </div>
             </div>
           </div>
-          <a href="service.html" class="template-btn hm2-primary-btn rounded-pill">Ver más</a>
+          <a href="" class="template-btn hm2-primary-btn rounded-pill btn-inka-white">Ver más</a>
         </div>
       </div>
     </div>
@@ -101,24 +77,24 @@
         <div class="row g-4">
           <div class="col-md-6">
             <div class="dd-icon-box text-center bg-white">
-              <img src="assets/img/icons/icon-2.svg" alt="icon" class="img-fluid">
+              <img src="assets/img/imagenes-inkaweb/icon-control-calidad.png" alt="icon" class="img-fluid">
               <h5 class="mt-4 mb-3">Control de calidad</h5>
               <p class="mb-0">Professionally transit functionalities for covalent alignments. promotion with efficient technologies.</p>
             </div>
             <div class="dd-icon-box text-center bg-white mt-4">
-              <img src="assets/img/icons/icon-3.svg" alt="icon" class="img-fluid">
+              <img src="assets/img/imagenes-inkaweb/icon-comprometidos-bienestar.png" alt="icon" class="img-fluid">
               <h5 class="mt-4 mb-3">Comprometidos con el bienestar</h5>
               <p class="mb-0">Professionally transit functionalities for covalent alignments. promotion with efficient technologies.</p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="dd-icon-box text-center bg-white mt-md-5">
-              <img src="assets/img/icons/icon-4.svg" alt="icon" class="img-fluid">
+              <img src="assets/img/imagenes-inkaweb/icon-cultura-organizacional.png" alt="icon" class="img-fluid">
               <h5 class="mt-4 mb-3">Cultura organizacional</h5>
               <p class="mb-0">Professionally transit functionalities for covalent alignments. promotion with efficient technologies.</p>
             </div>
             <div class="dd-icon-box text-center bg-white mt-4">
-              <img src="assets/img/icons/icon-5.svg" alt="icon" class="img-fluid">
+              <img src="assets/img/imagenes-inkaweb/icon-precios-competitivos.png" alt="icon" class="img-fluid">
               <h5 class="mt-4 mb-3">Precios competitivos</h5>
               <p class="mb-0">Professionally transit functionalities for covalent alignments. promotion with efficient technologies.</p>
             </div>
