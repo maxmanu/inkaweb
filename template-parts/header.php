@@ -54,6 +54,7 @@
   <script>
     let lazyStyles = [
       "assets/css/animate.min.css",
+      // "assets/css/fontawesome.min.css",
       "assets/css/swiper.min.css",
       "assets/css/bootstrap-slider.min.css"
     ];
