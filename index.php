@@ -3,7 +3,7 @@
 <section class="hm7-hero-section position-relative zindex-1 overflow-hidden">
   <div class="hm7-hero-slider swiper">
     <div class="swiper-wrapper">
-      <!-- <div class="slider-hero-single position-relative zindex-1 swiper-slide">
+      <div class="slider-hero-single position-relative zindex-1 swiper-slide">
         <img
           src="assets/img/imagenes-inkaweb/hero-slide-1.webp"
           alt="Somos tu empresa de hosting"
@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
         data-background="assets/img/imagenes-inkaweb/hero-slide-2.webp">
