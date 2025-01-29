@@ -39,7 +39,7 @@
 
   <link
     href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Urbanist:wght@600;700&display=swap"
-    rel="stylesheet" />
+    rel="preconnect" />
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/animate-min.css" />
