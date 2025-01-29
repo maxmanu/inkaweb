@@ -42,16 +42,16 @@
     rel="preconnect" />
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <!-- <link rel="stylesheet" href="assets/css/animate.min.css" />
   <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
   <link rel="stylesheet" href="assets/css/swiper.min.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap-slider.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap-slider.min.css" /> -->
   <link rel="stylesheet" href="assets/css/main.min.css" />
   <link rel="stylesheet" href="assets/css/custom.css">
 
   <!-- <link rel="stylesheet" href="assets/css/styles.min.css"> -->
 
-  <!-- <script>
+  <script>
     let lazyStyles = [
       "assets/css/animate.min.css",
       "assets/css/swiper.min.css",
@@ -63,7 +63,7 @@
       link.href = href;
       document.head.appendChild(link);
     });
-  </script> -->
+  </script>
 
 
 </head>
