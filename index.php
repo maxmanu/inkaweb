@@ -207,7 +207,7 @@
               </div>
             </div>
             <div class="col-lg-5">
-              <div class="box-right text-lg-center">
+              <div class="box-right text-lg-center d-none d-lg-block">
                 <!-- <img src="https://placehold.co/340x323.webp" loading="eager" alt="badge" class="img-fluid" /> -->
                 <img src="assets/img/imagenes-inkaweb/badge3.webp" loading="eager" alt="badge" class="img-fluid">
               </div>
