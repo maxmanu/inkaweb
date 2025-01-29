@@ -77,16 +77,16 @@
               <h5 class="text-white position-relative ft-subtitle d-inline-block">Nosotros Aceptamos</h5>
               <ul class="payment-list d-flex align-items-center mt-3">
                 <li class="d-inline-flex align-items-center justify-content-center">
-                  <img src="assets/img/imagenes-inkaweb/visa-logo.png" alt="visa" class="img-fluid" />
+                  <img src="assets/img/imagenes-inkaweb/visa-logo.png" loading="lazy" alt="visa" class="img-fluid" />
                 </li>
                 <li class="d-inline-flex align-items-center justify-content-center">
-                  <img src="assets/img/imagenes-inkaweb/mastercard-logo.png" alt="mastercard" class="img-fluid" />
+                  <img src="assets/img/imagenes-inkaweb/mastercard-logo.png" loading="lazy" alt="mastercard" class="img-fluid" />
                 </li>
                 <li class="d-inline-flex align-items-center justify-content-center">
-                  <img src="assets/img/imagenes-inkaweb/paypal-logo.png" alt="paypal" class="img-fluid" />
+                  <img src="assets/img/imagenes-inkaweb/paypal-logo.png" loading="lazy" alt="paypal" class="img-fluid" />
                 </li>
                 <li class="d-inline-flex align-items-center justify-content-center">
-                  <img src="assets/img/imagenes-inkaweb/western-logo.png" alt="western" class="img-fluid" />
+                  <img src="assets/img/imagenes-inkaweb/western-logo.png" loading="lazy" alt="western" class="img-fluid" />
                 </li>
               </ul>
             </div>

@@ -224,7 +224,7 @@
       <div class="col-lg-6">
         <div class="hm7-about-left position-relative zindex-1">
           <span class="position-absolute circle-shape-gradient zindex--1 rounded-circle"></span>
-          <img src="assets/img/imagenes-inkaweb/about.png" loading="lazy" alt="not found" class="img-fluid" />
+          <img src="https://placehold.co/624x498.webp" loading="lazy" alt="not found" class="img-fluid" />
           <div class="hm7-counter-circle position-absolute rounded-circle bg-white">
             <div class="counter-circle-wrapper text-center">
               <h2 class="mb-0 text-white"><span class="counter">17</span>+</h2>
@@ -493,7 +493,7 @@
       <div class="row g-5">
         <div class="col-lg-4">
           <div class="left-img">
-            <img src="assets/img/imagenes-inkaweb/lock.png" alt="not found" loading="lazy" class="img-fluid" />
+            <img src="https://placehold.co/353x277.webp" alt="not found" loading="lazy" class="img-fluid" />
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1">
