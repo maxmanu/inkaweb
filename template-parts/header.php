@@ -41,17 +41,15 @@
     href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Urbanist:wght@600;700&display=swap"
     rel="preconnect" />
 
-  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="assets/css/animate.min.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
   <link rel="stylesheet" href="assets/css/swiper.min.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap-slider-min.css" />
-  <link rel="stylesheet" href="assets/css/main.min.css" />
-  <link rel="stylesheet" href="assets/css/custom.css" /> -->
+  <link rel="stylesheet" href="assets/css/bootstrap-slider-min.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/css/main.min.css" /> -->
 
-  <link rel="stylesheet" href="assets/css/styles.min.css">
-
-  <link rel="preload" href="assets/css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- <link rel="stylesheet" href="assets/css/styles.min.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/custom.css"> -->
 
   <script>
     let lazyStyles = [

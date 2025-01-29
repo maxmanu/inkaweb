@@ -1060,7 +1060,7 @@
 <section class="h4-blog-section pb-120 ds-bg">
   <div class="container">
     <div class="row g-4 justify-content-center">
-      <div class="col-xxl-7 col-lg-10">
+      <div class="col-xxl-7 col-xl-8 col-lg-10">
         <div class="blog-left">
           <div class="title-area mb-4 text-center text-sm-start">
             <h2 class="mb-2">Últimos Tutoriales</h2>
@@ -1161,5 +1161,6 @@
     </div>
   </div>
 </section>
+
 
 <?php include("template-parts/footer.php") ?>

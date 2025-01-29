@@ -152,14 +152,14 @@
 <!-- main content wrapper ends -->
 
 <!--build:js-->
-<script src="assets/js/vendors/jquery.min.js"></script>
-<script src="assets/js/vendors/bootstrap.min.js"></script>
-<script src="assets/js/vendors/easing.min.js"></script>
-<script src="assets/js/vendors/swiper.min.js"></script>
-<script src="assets/js/vendors/massonry.min.js"></script>
-<script src="assets/js/vendors/waypoints.js"></script>
-<script src="assets/js/app.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="assets/js/vendors/jquery.min.js" defer></script>
+<script src="assets/js/vendors/bootstrap.min.js" defer></script>
+<script src="assets/js/vendors/easing.min.js" defer></script>
+<script src="assets/js/vendors/swiper.min.js" defer></script>
+<script src="assets/js/vendors/massonry.min.js" defer></script>
+<script src="assets/js/vendors/waypoints.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/custom.js" defer></script>
 <!-- <script src="assets/js/vendors/popper.min.js"></script> -->
 <!-- <script src="assets/js/vendors/bootstrap-slider.js"></script>
 <script src="assets/js/vendors/magnific-popup.js"></script> -->
