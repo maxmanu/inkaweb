@@ -55,9 +55,9 @@
 
   <script>
     let lazyStyles = [
-      "assets/css/animate-min.css",
-      "assets/css/swiper-min.css",
-      "assets/css/bootstrap-slider-min.css"
+      "assets/css/animate.min.css",
+      "assets/css/swiper.min.css",
+      "assets/css/bootstrap-slider.min.css"
     ];
     lazyStyles.forEach(function(href) {
       let link = document.createElement("link");
