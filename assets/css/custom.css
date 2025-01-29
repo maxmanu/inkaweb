@@ -5675,6 +5675,9 @@ span {
   .h5-domain-box {
     margin-top: -110px;
   }
+  .slider-hero-single {
+    background-image: url('https://placehold.co/400x600.webp') !important;
+  }
 }
 
 @media (max-width: 575.98px) {

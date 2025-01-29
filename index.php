@@ -3,7 +3,7 @@
 <section class="hm7-hero-section position-relative zindex-1 overflow-hidden">
   <div class="hm7-hero-slider swiper">
     <div class="swiper-wrapper">
-      <div class="slider-hero-single position-relative zindex-1 swiper-slide">
+      <!-- <div class="slider-hero-single position-relative zindex-1 swiper-slide">
         <img
           src="assets/img/imagenes-inkaweb/hero-slide-1.webp"
           alt="Somos tu empresa de hosting"
@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div
         class="slider-hero-single position-relative zindex-1 swiper-slide"
         data-background="assets/img/imagenes-inkaweb/hero-slide-2.webp">
@@ -1062,7 +1062,7 @@
             <p class="mb-0">Contact one of our friendly technical advisors now Our team is available</p>
           </div>
           <div class="h4-blog-card bg-white deep-shadow rounded-2 position-relative">
-            <a href="blog-details.html" class="feature-img"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="not found" class="img-fluid rounded-2" /></a>
+            <a href="blog-details.html" class="feature-img"><img src="https://placehold.co/746x530.webp" loading="lazy" alt="not found" class="img-fluid rounded-2" /></a>
             <span class="position-absolute category-btn start-0 top-0">General</span>
             <div class="h4-blog-content bg-white">
               <a href="blog-details.html">
@@ -1082,7 +1082,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="https://placehold.co/210x150.webp" loading="lazy" alt="feature" class="rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
@@ -1106,7 +1106,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="https://placehold.co/210x150.webp" loading="lazy" alt="feature" class="rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
@@ -1130,7 +1130,7 @@
           <div class="col-xl-12">
             <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
               <div class="feature-thumb position-relative">
-                <a href="blog-details.html"><img src="assets/img/imagenes-inkaweb/backup-inkawebdesign.webp" loading="lazy" alt="feature" class="img-fluid rounded-left" /></a>
+                <a href="blog-details.html"><img src="https://placehold.co/210x150.webp" loading="lazy" alt="feature" class="rounded-left" /></a>
                 <span class="position-absolute category-btn">Hosting</span>
               </div>
               <div class="blog-content ms-0 ms-sm-4 mt-3 mt-sm-0">
