@@ -1,6 +1,6 @@
 <?php include("template-parts/header.php") ?>
 
-<section class="hm7-hero-section position-relative zindex-1 overflow-hidden">
+<section class="hm7-hero-section position-relative zindex-1 overflow-hidden d-none d-lg-block">
   <div class="hm7-hero-slider swiper">
     <div class="swiper-wrapper">
       <div class="slider-hero-single position-relative zindex-1 swiper-slide">
@@ -208,7 +208,7 @@
             </div>
             <div class="col-lg-5">
               <div class="box-right text-lg-center">
-                <img src="assets/img/imagenes-inkaweb/badge3.png" loading="lazy" alt="badge" class="img-fluid" />
+                <img src="https://placehold.co/340x323.webp" loading="lazy" alt="badge" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -270,7 +270,7 @@
   </div>
 </section>
 
-<section class="hm2-pricing-section bg-light ptb-120 pb-120 overflow-hidden" id="pricing">
+<section class="hm2-pricing-section bg-light ptb-120 pb-120 overflow-hidden d-none d-lg-block" id="pricing">
   <div class="container-fluid position-relative zindex-1">
     <div class="row justify-content-center">
       <div class="col-lg-5">
@@ -634,7 +634,7 @@
     class="position-absolute zindex--1 arrow-sm-blue" />
   <div class="container">
     <div class="row g-5 g-xl-4 justify-content-between align-items-center">
-      <div class="col-xl-6 col-lg-6">
+      <div class="col-xl-6 col-lg-6 d-none d-lg-block">
         <div class="mn-support-left">
           <div class="mn-chatting-slider mb-50 swiper">
             <div class="swiper-wrapper">
