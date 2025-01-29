@@ -49,15 +49,15 @@
   <link rel="stylesheet" href="assets/css/main.min.css" />
   <link rel="stylesheet" href="assets/css/custom.css" /> -->
 
-  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
 
-  <link rel="preload" href="css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
   <script>
     let lazyStyles = [
-      "css/animate-min.css",
-      "css/swiper-min.css",
-      "css/bootstrap-slider-min.css"
+      "assets/css/animate-min.css",
+      "assets/css/swiper-min.css",
+      "assets/css/bootstrap-slider-min.css"
     ];
     lazyStyles.forEach(function(href) {
       let link = document.createElement("link");
