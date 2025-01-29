@@ -7,7 +7,12 @@
         <img
           src="assets/img/imagenes-inkaweb/hero-slide-1.webp"
           alt="Somos tu empresa de hosting"
-          class="background-image-home img-fluid"
+          class="background-image-home d-none d-md-block img-fluid"
+          loading="eager">
+        <img
+          src="assets/img/imagenes-inkaweb/hero-slide-1-movil.webp"
+          alt="Somos tu empresa de hosting"
+          class="background-image-home d-block d-md-none img-fluid"
           loading="eager">
         <div class="container">
           <div class="row">
