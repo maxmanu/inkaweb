@@ -41,13 +41,33 @@
     href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Urbanist:wght@600;700&display=swap"
     rel="preconnect" />
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/animate-min.css" />
-  <link rel="stylesheet" href="assets/css/fontawesome-min.css" />
-  <link rel="stylesheet" href="assets/css/swiper-min.css" />
+  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
   <link rel="stylesheet" href="assets/css/bootstrap-slider-min.css" />
-  <link rel="stylesheet" href="assets/css/main-min.css" />
-  <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/main.min.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" /> -->
+
+  <link rel="stylesheet" href="css/styles.min.css">
+
+  <link rel="preload" href="css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <script>
+    let lazyStyles = [
+      "css/animate-min.css",
+      "css/swiper-min.css",
+      "css/bootstrap-slider-min.css"
+    ];
+    lazyStyles.forEach(function(href) {
+      let link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = href;
+      document.head.appendChild(link);
+    });
+  </script>
+
+
 </head>
 
 <body>
