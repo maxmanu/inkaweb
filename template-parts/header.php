@@ -49,7 +49,7 @@
   <link rel="stylesheet" href="assets/css/main.min.css" />
   <link rel="stylesheet" href="assets/css/custom.css" /> -->
 
-  <link rel="preload" rel="stylesheet" href="assets/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
 
   <link rel="preload" href="assets/css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
