@@ -151,22 +151,46 @@
 </div>
 <!-- main content wrapper ends -->
 
-<!--build:js-->
-<!-- <script src="assets/js/vendors/jquery.min.js" defer></script> -->
-<!-- <script src="assets/js/vendors/bootstrap.min.js" defer></script> -->
-<!-- <script src="assets/js/vendors/easing.min.js" defer></script>
-<script src="assets/js/vendors/swiper.min.js" defer></script>
-<script src="assets/js/vendors/massonry.min.js" defer></script>
-<script src="assets/js/vendors/waypoints.js" defer></script>
-<script src="assets/js/app.js" defer></script>
-<script src="assets/js/custom.js" defer></script> -->
+<script>
+(function () {
+    if (window.innerWidth >= 780) {
+        // Cargar jQuery primero y asegurarnos de que está disponible antes de seguir
+        let jqueryScript = document.createElement("script");
+        jqueryScript.src = "assets/js/vendors/jquery.min.js";
+        jqueryScript.onload = function () {
+            console.log("jQuery cargado:", window.jQuery); // Verifica si jQuery está disponible
+
+            // Ahora cargar el resto de los scripts
+            let scripts = [
+                "assets/js/vendors/easing.min.js",
+                "assets/js/vendors/massonry.min.js",
+                "assets/js/vendors/waypoints.js",
+                "assets/js/vendors/bootstrap.min.js",
+                "assets/js/vendors/swiper.min.js",
+                "assets/js/app.js",
+                "assets/js/custom.js"
+            ];
+
+            scripts.forEach(src => {
+                let script = document.createElement("script");
+                script.src = src;
+                script.defer = false; // NO usar defer para asegurar que se ejecuten en orden
+                document.body.appendChild(script);
+            });
+        };
+
+        document.head.appendChild(jqueryScript); // Agregar jQuery primero
+    }
+})();
+</script>
+
 <!-- <script src="assets/js/vendors/popper.min.js"></script> -->
 <!-- <script src="assets/js/vendors/bootstrap-slider.js"></script>
 <script src="assets/js/vendors/magnific-popup.js"></script> -->
 <!-- <script src="assets/js/vendors/counterup.js"></script>
 <script src="assets/js/vendors/isotop.pkgd.min.js"></script>
 <script src="assets/js/vendors/countdown.min.js"></script> -->
-<!--endbuild-->
+
 </body>
 
 </html>
