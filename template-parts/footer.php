@@ -154,35 +154,43 @@
 <script>
 (function () {
     if (window.innerWidth >= 780) {
-        // Cargar jQuery primero y asegurarnos de que está disponible antes de seguir
+        // 1️⃣ Cargar jQuery primero
         let jqueryScript = document.createElement("script");
         jqueryScript.src = "assets/js/vendors/jquery.min.js";
         jqueryScript.onload = function () {
-            console.log("jQuery cargado:", window.jQuery); // Verifica si jQuery está disponible
+            console.log("✅ jQuery cargado:", window.jQuery); // Verificar que jQuery se cargó correctamente
 
-            // Ahora cargar el resto de los scripts
-            let scripts = [
+            // 2️⃣ Cargar Bootstrap y Swiper justo después de jQuery
+            let coreScripts = [
+                "assets/js/vendors/bootstrap.min.js",
+                "assets/js/vendors/swiper.min.js"
+            ];
+            coreScripts.forEach(src => {
+                let script = document.createElement("script");
+                script.src = src;
+                document.body.appendChild(script);
+            });
+
+            // 3️⃣ Luego cargar los demás scripts
+            let otherScripts = [
                 "assets/js/vendors/easing.min.js",
                 "assets/js/vendors/massonry.min.js",
                 "assets/js/vendors/waypoints.js",
-                "assets/js/vendors/bootstrap.min.js",
-                "assets/js/vendors/swiper.min.js",
                 "assets/js/app.js",
                 "assets/js/custom.js"
             ];
-
-            scripts.forEach(src => {
+            otherScripts.forEach(src => {
                 let script = document.createElement("script");
                 script.src = src;
-                script.defer = false; // NO usar defer para asegurar que se ejecuten en orden
                 document.body.appendChild(script);
             });
         };
 
-        document.head.appendChild(jqueryScript); // Agregar jQuery primero
+        document.head.appendChild(jqueryScript); // Agregar jQuery primero en <head>
     }
 })();
 </script>
+
 
 <!-- <script src="assets/js/vendors/popper.min.js"></script> -->
 <!-- <script src="assets/js/vendors/bootstrap-slider.js"></script>
