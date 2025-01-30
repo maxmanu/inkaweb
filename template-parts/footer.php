@@ -104,7 +104,7 @@
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="copyright-txt text-white">
-            <p class="mb-0">Copyright 2024 Inkawebdesign.com. Todos los derechos reservados.</p>
+            <p class="mb-0">Copyright <?php echo date('Y'); ?> Inkawebdesign.com. Todos los derechos reservados.</p>
           </div>
         </div>
 
@@ -151,54 +151,14 @@
 </div>
 <!-- main content wrapper ends -->
 
-<script>
-(function () {
-    if (window.innerWidth >= 780) {
-        // 1️⃣ Cargar jQuery primero
-        let jqueryScript = document.createElement("script");
-        jqueryScript.src = "assets/js/vendors/jquery.min.js";
-        jqueryScript.onload = function () {
-            console.log("✅ jQuery cargado:", window.jQuery); // Verificar que jQuery se cargó correctamente
-
-            // 2️⃣ Cargar Bootstrap y Swiper justo después de jQuery
-            let coreScripts = [
-                "assets/js/vendors/bootstrap.min.js",
-                "assets/js/vendors/swiper.min.js"
-            ];
-            coreScripts.forEach(src => {
-                let script = document.createElement("script");
-                script.src = src;
-                document.body.appendChild(script);
-            });
-
-            // 3️⃣ Luego cargar los demás scripts
-            let otherScripts = [
-                "assets/js/vendors/easing.min.js",
-                "assets/js/vendors/massonry.min.js",
-                "assets/js/vendors/waypoints.js",
-                "assets/js/app.js",
-                "assets/js/custom.js"
-            ];
-            otherScripts.forEach(src => {
-                let script = document.createElement("script");
-                script.src = src;
-                document.body.appendChild(script);
-            });
-        };
-
-        document.head.appendChild(jqueryScript); // Agregar jQuery primero en <head>
-    }
-})();
-</script>
-
-
-<!-- <script src="assets/js/vendors/popper.min.js"></script> -->
-<!-- <script src="assets/js/vendors/bootstrap-slider.js"></script>
-<script src="assets/js/vendors/magnific-popup.js"></script> -->
-<!-- <script src="assets/js/vendors/counterup.js"></script>
-<script src="assets/js/vendors/isotop.pkgd.min.js"></script>
-<script src="assets/js/vendors/countdown.min.js"></script> -->
-
+<!-- <script src="assets/js/vendors/jquery.min.js" defer></script> -->
+<script src="assets/js/vendors/bootstrap.min.js" defer></script>
+<!-- <script src="assets/js/vendors/easing.min.js" defer></script> -->
+<script src="assets/js/vendors/swiper.min.js" defer></script>
+<!-- <script src="assets/js/vendors/massonry.min.js" defer></script> -->
+<!-- <script src="assets/js/vendors/waypoints.js" defer></script> -->
+<!-- <script src="assets/js/app.min.js" defer></script> -->
+<script src="assets/js/custom.js" defer></script>
 </body>
 
 </html>

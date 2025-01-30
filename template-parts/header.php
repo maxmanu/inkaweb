@@ -43,19 +43,16 @@
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <!-- <link rel="stylesheet" href="assets/css/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css" /> -->
   <link rel="stylesheet" href="assets/css/swiper.min.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap-slider.min.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/css/bootstrap-slider.min.css" /> -->
   <link rel="stylesheet" href="assets/css/main.min.css" />
   <link rel="stylesheet" href="assets/css/custom.css">
-
-  <!-- <link rel="stylesheet" href="assets/css/styles.min.css"> -->
 
   <script>
     let lazyStyles = [
       "assets/css/animate.min.css",
-      // "assets/css/fontawesome.min.css",
-      "assets/css/swiper.min.css",
+      "assets/css/fontawesome.min.css",
       "assets/css/bootstrap-slider.min.css"
     ];
     lazyStyles.forEach(function(href) {
@@ -390,14 +387,14 @@
         <ul>
           <li><a href="index.php">Inicio</a></li>
           <li class="has-submenu"><a href="javascript:void(0)" class="">Dominios</a>
-            <ul style="display: none;">
+            <ul>
               <li><a href="precios-dominios.php">Precio de Dominios</a></li>
               <li><a href="registro-dominios-peruanos">Dominios Peruanos</a></li>
               <li><a href="conversor-dominios.php">Conversor de Dominios con Ñ</a></li>
             </ul>
           </li>
           <li class="has-submenu"><a href="javascript:void(0)" class="">Hosting</a>
-            <ul class="submenu-wrapper" style="display: none;">
+            <ul class="submenu-wrapper">
               <li><a href="hosting-linux-personal.php">Hosting Personal</a></li>
               <li><a href="hosting-linux-personal.php">Hosting Económico</a></li>
               <li><a href="hosting-linux-personal.php">Hosting Básico</a></li>

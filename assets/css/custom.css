@@ -5415,6 +5415,13 @@ span {
   color: #000000
 }
 
+.mobile-menu ul li.has-submenu ul {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  /* Animación suave */
+}
+
 @media (max-width:1399.98px) {
   .email-service-item.mt-100 {
     margin-top: 0
