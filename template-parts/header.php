@@ -225,7 +225,7 @@
                           <div class="row">
                             <div class="col-md-6">
                               <div class="megamenu-item">
-                                <a href="posicionamiento-web-en-buscadores/">
+                                <a href="posicionamiento-web-en-buscadores.php">
                                   <div class="menu-list-wrapper d-flex align-items-center">
                                     <span class="icon-wrapper"><i class="fa-solid fa-server"></i></span>
                                     <div class="menu-list-content-right ms-3">
